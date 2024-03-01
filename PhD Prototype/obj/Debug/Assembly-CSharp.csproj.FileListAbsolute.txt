@@ -1,0 +1,6 @@
+C:\Projects\PhD-Working-Prototype\PhD Prototype\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Projects\PhD-Working-Prototype\PhD Prototype\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Projects\PhD-Working-Prototype\PhD Prototype\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+C:\Projects\PhD-Working-Prototype\PhD Prototype\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+C:\Projects\PhD-Working-Prototype\PhD Prototype\obj\Debug\Assembly-CSharp.dll
+C:\Projects\PhD-Working-Prototype\PhD Prototype\obj\Debug\Assembly-CSharp.pdb
