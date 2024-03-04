@@ -9,11 +9,7 @@ public class Timer : MonoBehaviour
     public TMP_Text timer;
     public float timeRemaining = 10.0f;
     public float timeGone = 0.0f;
-
-    void Start()
-    {
-        timer.GetComponent<Text>().text = timeRemaining.ToString("0.0");
-    }
+    public bool timerExpired = false;
 
     // Update is called once per frame
     void Update()
@@ -21,9 +17,9 @@ public class Timer : MonoBehaviour
         if (timeRemaining >= 0)
         {
             timeRemaining -= 1 * Time.deltaTime;
-            timer.GetComponent<Text>().text = timeRemaining.ToString("0.0");
+            timer.text = timeRemaining.ToString("0.0");
         }
-        else
+        else if (timerExpired == false)
         {
             TimeOut();
         }
@@ -32,12 +28,14 @@ public class Timer : MonoBehaviour
     public void TimeOut()
     {
         print("You ran out of time!");
-        ResetTimer();
+        timerExpired = true;
     }
 
     public void ResetTimer()
     {
         timeRemaining = 10.0f;
+        timerExpired = false;
+        print("Resetting timer! Countdown will restart");
     }
 
 }

@@ -10,27 +10,39 @@ public class DifficultySetting : MonoBehaviour
     public static float noviceSpeed = 0f;
     public static float advancedSpeed = 0.25f;
     public static float expertSpeed = 0.5f;
-    public static float playerSelection = 0.0f;
+    public static float playerSpeedSelection = 0.0f;
+
+    // Variables for difficulty score multipliers
+    public static float noviceScore = 1.0f;
+    public static float advancedScore = 1.5f;
+    public static float expertScore = 2.0f;
+    public static float playerScoringSelection = 1.0f;  // Set player score multipler to 1.0 by default
 
     public void NoviceSelection()
     {
-        playerSelection = noviceSpeed;      // Set the player selection equal to value for setting
-        print("Novice selected! Game speed is: " + (PauseMenu.gameSpeed + playerSelection));
-        Time.timeScale = PauseMenu.gameSpeed + playerSelection;     // Apply Game speed
+        playerSpeedSelection = noviceSpeed;      // Set the player selection equal to value for setting
+        print("Novice selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
         print(Time.timeScale);
+        playerScoringSelection = noviceScore;   // Set player's selection equal to scoring difficulty multiplier
+        print("Novice difficulty, score multipler is: " + playerScoringSelection);
     }
 
     public void AdvancedSelection()
     {
-        playerSelection = advancedSpeed;    // Set the player selection equal to value for setting
-        print("Advanced selected! Game speed is: " + (PauseMenu.gameSpeed + playerSelection));
-        Time.timeScale = PauseMenu.gameSpeed + playerSelection;     // Apply Game speed
+        playerSpeedSelection = advancedSpeed;    // Set the player selection equal to value for setting
+        print("Advanced selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
+        playerScoringSelection = advancedScore;   // Set player's selection equal to scoring difficulty multiplier
+        print("Advanced difficulty, score multipler is: " + playerScoringSelection);
     }
 
     public void ExpertSelection()
     {
-        playerSelection = expertSpeed;      // Set the player selection equal to value for setting
-        print("Expert selected! Game speed is: " + (PauseMenu.gameSpeed + playerSelection));
-        Time.timeScale = PauseMenu.gameSpeed + playerSelection;     // Apply Game speed
+        playerSpeedSelection = expertSpeed;      // Set the player selection equal to value for setting
+        print("Expert selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
+        playerScoringSelection = expertScore;   // Set player's selection equal to scoring difficulty multiplier
+        print("Expert difficulty, score multipler is: " + playerScoringSelection);
     }
 }

@@ -17,18 +17,26 @@ public class PauseMenu : MonoBehaviour
     {
         gameUI.SetActive(true);         // Enable Game UI
         pauseUI.SetActive(false);       // Disable Pause UI
-        Time.timeScale = gameSpeed + DifficultySetting.playerSelection;     // Apply Game speed
+        Time.timeScale = gameSpeed + DifficultySetting.playerSpeedSelection;     // Apply Game speed
         gamePaused = true;
-        print("Game Resumed! Game speed is: " + (gameSpeed + DifficultySetting.playerSelection));
+        print("Game Resumed! Game speed is: " + (gameSpeed + DifficultySetting.playerSpeedSelection));
     }
 
     // Pause Game Function
     public void Pause()
     {
-        gameUI.SetActive(false);        // Disable Game UI
-        pauseUI.SetActive(true);        // Enable Pause UI
-        Time.timeScale = pauseSpeed;     // Disable Game speed
+        gameUI.SetActive(false);            // Disable Game UI
+        pauseUI.SetActive(true);            // Enable Pause UI
+        Time.timeScale = pauseSpeed;        // Disable Game speed
         gamePaused = false;
         print("Game Paused! Game speed is: " + pauseSpeed);
+    }
+
+    // Exit the game when called
+    public void ExitGame()
+    {
+        Time.timeScale = 1.0f;
+        print("Closing the game! Game speed reset to: " + Time.timeScale);
+        Application.Quit();
     }
 }
