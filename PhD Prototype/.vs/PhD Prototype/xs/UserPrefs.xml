@@ -1,21 +1,16 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DifficultySetting.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WASDMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/PauseMenu.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="32" Column="6" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="33" Column="6" />
+      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="55" Column="10" />
       <File FileName="Assets/Scripts/Timer.cs" Line="28" Column="26" />
-      <File FileName="Assets/Scripts/DifficultySetting.cs" Line="15" Column="22" />
+      <File FileName="Assets/Scripts/DifficultySetting.cs" Line="36" Column="115" />
+      <File FileName="Assets/Scripts/WASDMovement.cs" Line="8" Column="34" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhD Prototype" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="DifficultySetting.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="PhD Prototype" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
