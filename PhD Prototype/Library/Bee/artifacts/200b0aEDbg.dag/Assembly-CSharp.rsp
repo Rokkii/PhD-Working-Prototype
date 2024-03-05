@@ -360,6 +360,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/CameraSwitcher.cs"
 "Assets/Scripts/DifficultySetting.cs"
 "Assets/Scripts/LevelLoader.cs"
 "Assets/Scripts/PauseMenu.cs"
