@@ -18,8 +18,11 @@ public class DifficultySetting : MonoBehaviour
     public static float expertScore = 2.0f;
     public static float playerScoringSelection = 1.0f;  // Set player score multipler to 1.0 by default
 
+    public static string difficultyChoice = "Default";
+
     public void NoviceSelection()
     {
+        difficultyChoice = "Novice";    // Set string difficulty value
         playerSpeedSelection = noviceSpeed;      // Set the player selection equal to value for setting
         print("Novice selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
@@ -30,6 +33,7 @@ public class DifficultySetting : MonoBehaviour
 
     public void AdvancedSelection()
     {
+        difficultyChoice = "Advanced";    // Set string difficulty value
         playerSpeedSelection = advancedSpeed;    // Set the player selection equal to value for setting
         print("Advanced selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
@@ -39,6 +43,7 @@ public class DifficultySetting : MonoBehaviour
 
     public void ExpertSelection()
     {
+        difficultyChoice = "Expert";    // Set string difficulty value
         playerSpeedSelection = expertSpeed;      // Set the player selection equal to value for setting
         print("Expert selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed

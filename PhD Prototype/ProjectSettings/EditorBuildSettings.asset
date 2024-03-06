@@ -6,12 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test Scene.unity
-    guid: 7f6c08aadac8d7a47b3fd85fa3dcf192
-  - enabled: 1
-    path: Assets/Scenes/Back Test Scenario.unity
+    path: Assets/Scenes/Testing Scene.unity
     guid: dc08cad085235f74fbfbfb00f3c040e4
   - enabled: 1
     path: Assets/Scenes/3D Test Scene.unity
     guid: 635aa0826af611b4aa0b58d00fda4e93
+  - enabled: 1
+    path: Assets/Scenes/Movement Test Scene.unity
+    guid: a9660c73324db4e5fab9cd21a76b1064
+  - enabled: 1
+    path: Assets/Scenes/List Scene Test/Scene 1.unity
+    guid: e8bc213651cf44a20be4d22a826ba818
+  - enabled: 1
+    path: Assets/Scenes/List Scene Test/Scene 2.unity
+    guid: c7864cbcf2bf04054bde96a7ea62a2c4
   m_configObjects: {}
