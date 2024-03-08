@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DebugMenu.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/LevelLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/PauseMenu.cs" Line="13" Column="32" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="8" Column="31" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" Line="22" Column="67" />
       <File FileName="Assets/Scripts/Timer.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/DifficultySetting.cs" Line="30" Column="63" />
       <File FileName="Assets/Scripts/WASDMovement.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/CameraSwitcher.cs" Line="14" Column="1" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="21" Column="31" />
-      <File FileName="Assets/Scripts/DebugMenu.cs" Line="9" Column="67" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="23" Column="46" />
+      <File FileName="Assets/Scripts/DebugMenu.cs" Line="27" Column="169" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +16,7 @@
           <Node name="PhD Prototype" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="DebugMenu.cs" selected="True" />
+                <Node name="LevelLoader.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -26,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="d3cda803-b7c0-428b-8e3b-29b4f6ff2caf" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="867e6620-d49f-4c74-bc56-ba2194a43f37" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

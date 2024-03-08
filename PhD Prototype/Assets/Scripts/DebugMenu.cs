@@ -13,6 +13,7 @@ public class DebugMenu : MonoBehaviour
     public TMP_Text debugScenesPlayed;
     public TMP_Text debugDifficulty;
     public TMP_Text debugScoreMultiplier;
+    public TMP_Text debugScenesToLoad;
 
     // Update is called once per frame
     void Update()
@@ -23,5 +24,6 @@ public class DebugMenu : MonoBehaviour
         debugScenesPlayed.text = LevelLoader.gameSceneNumber.ToString("0");                                         // Outputs scenes played as a text string
         debugDifficulty.text = DifficultySetting.difficultyChoice.ToString();                                       // Outputs difficulty choice as a text string
         debugScoreMultiplier.text = DifficultySetting.playerScoringSelection.ToString("0.0");                       // Outputs player score multiplier as a text string
+        debugScenesToLoad.text = LevelLoader.sceneListString.ToString();                                            // Outputs scenes selected by the player as a string
     }
 }

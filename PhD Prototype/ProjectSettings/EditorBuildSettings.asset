@@ -15,9 +15,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Movement Test Scene.unity
     guid: a9660c73324db4e5fab9cd21a76b1064
   - enabled: 1
-    path: Assets/Scenes/List Scene Test/Scene 1.unity
-    guid: e8bc213651cf44a20be4d22a826ba818
+    path: Assets/Scenes/List Scene Test/Back 1.unity
+    guid: 094844c8da6f14970ae06b0a10fdcdbd
   - enabled: 1
-    path: Assets/Scenes/List Scene Test/Scene 2.unity
-    guid: c7864cbcf2bf04054bde96a7ea62a2c4
+    path: Assets/Scenes/List Scene Test/Back 2.unity
+    guid: f09e30ae8eddb429c905244976341b53
+  - enabled: 1
+    path: Assets/Scenes/List Scene Test/Forward 1.unity
+    guid: 13b4ebc3420f64b8db8122294998c383
+  - enabled: 1
+    path: Assets/Scenes/List Scene Test/Forward 2.unity
+    guid: 55b7a25817d0949bcb489c9c8ed74ec9
   m_configObjects: {}
