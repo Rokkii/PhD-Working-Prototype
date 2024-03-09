@@ -367,6 +367,7 @@
 "Assets/Scripts/DifficultySetting.cs"
 "Assets/Scripts/LevelLoader.cs"
 "Assets/Scripts/PauseMenu.cs"
+"Assets/Scripts/PlayerFeedback.cs"
 "Assets/Scripts/ScoreBoard.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/Scripts/WASDMovement.cs"

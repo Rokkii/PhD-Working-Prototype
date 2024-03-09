@@ -15,6 +15,9 @@ public class Timer : MonoBehaviour
     // Declare a time elapsed variable
     public float timeGone = 0.0f;
 
+    // Bool to declare if timer is active, default false (set in-client)
+    public bool timerActive = false;
+
     // Declare bool for if timer has expired
     public bool timerExpired = false;
 
@@ -27,12 +30,12 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (timeRemaining >= 0)
+        if (timerActive == true && timeRemaining >= 0)
         {
             timeRemaining -= 1 * Time.deltaTime;
             timer.text = timeRemaining.ToString("0.0");
         }
-        else if (timerExpired == false)
+        else if (timerActive == true && timerExpired == false)
         {
             TimeOut();
         }

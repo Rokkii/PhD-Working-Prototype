@@ -11,6 +11,9 @@ public class LevelLoader : MonoBehaviour
     // Create array of scene names to load
     public string[] sceneList;
 
+    // Create int to be able to refer to length of sceneList array, default value = 0
+    public static int sceneListLength = 0;
+
     // Create a static string to list all scenes selected (for debug panel)
     public static string sceneListString = "None Selected";
 
@@ -22,6 +25,9 @@ public class LevelLoader : MonoBehaviour
     {
         // Reset scenes selected debug string
         sceneListString = "";
+
+        // Set sceneListLength equal to sceneList size
+        sceneListLength = sceneList.Length;
 
         // List each scene string for scenes selected
         for (int i = 0; i < sceneList.Length; i++)

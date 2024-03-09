@@ -171,6 +171,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4415497343470096979, guid: 517e166f5054a410f83209216e1a479a, type: 3}
+      propertyPath: addFeedback
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4415497343470096979, guid: 517e166f5054a410f83209216e1a479a, type: 3}
+      propertyPath: sceneFeedback
+      value: Forward 1 Feedback
+      objectReference: {fileID: 0}
     - target: {fileID: 5001340033872792022, guid: 517e166f5054a410f83209216e1a479a, type: 3}
       propertyPath: m_Name
       value: LevelController
@@ -190,6 +198,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b18a747860691c479f5900f19f4a927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &112355397 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4415497343470096979, guid: 517e166f5054a410f83209216e1a479a, type: 3}
+  m_PrefabInstance: {fileID: 112355395}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 749faa8c8f4cc4a3e8a0e17df9d45f98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &883370115
@@ -456,10 +475,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
@@ -467,7 +490,15 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 112355396}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 112355397}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
@@ -475,13 +506,29 @@ PrefabInstance:
       value: LoadListedScenes
       objectReference: {fileID: 0}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: AddPlayerFeedback
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: LevelLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: PlayerFeedback, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1012858024817929425, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2074776422404339755, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: debugPlayerFeedback
+      value: 
+      objectReference: {fileID: 1973403539}
     - target: {fileID: 6098114445871124692, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -566,6 +613,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 6804785212270634732, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 6804785212270634732, guid: 004b874bee001482db27b004ba655516, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -175
+      objectReference: {fileID: 0}
     - target: {fileID: 7169746821129697763, guid: 004b874bee001482db27b004ba655516, type: 3}
       propertyPath: m_text
       value: Forward 1
@@ -575,6 +630,17 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 004b874bee001482db27b004ba655516, type: 3}
+--- !u!114 &1973403539 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2209270890358786060, guid: 004b874bee001482db27b004ba655516, type: 3}
+  m_PrefabInstance: {fileID: 1973403538}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

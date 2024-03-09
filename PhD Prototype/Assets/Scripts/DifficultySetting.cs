@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 public class DifficultySetting : MonoBehaviour
 {
     // Variables for game speed setting based on difficulty selection
+    public static float defaultSpeed = 0f;
     public static float noviceSpeed = 0f;
     public static float advancedSpeed = 0.25f;
     public static float expertSpeed = 0.5f;
     public static float playerSpeedSelection = 0.0f;
 
     // Variables for difficulty score multipliers
+    public static float defaultScore = 1.0f;
     public static float noviceScore = 1.0f;
     public static float advancedScore = 1.5f;
     public static float expertScore = 2.0f;
@@ -49,5 +51,13 @@ public class DifficultySetting : MonoBehaviour
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
         playerScoringSelection = expertScore;   // Set player's selection equal to scoring difficulty multiplier
         print("Expert difficulty, score multipler is: " + playerScoringSelection);
+    }
+
+    public void ResetDifficultySettings()
+    {
+        difficultyChoice = "Default";
+        playerSpeedSelection = defaultSpeed;
+        Time.timeScale = playerSpeedSelection;
+        playerScoringSelection = defaultScore;
     }
 }
