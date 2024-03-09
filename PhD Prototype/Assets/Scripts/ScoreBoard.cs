@@ -15,6 +15,11 @@ public class ScoreBoard : MonoBehaviour
     public float okScore = 50.0f;
     public float badScore = 10.0f;
 
+    public void Start()
+    {
+        scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
+    }
+
     // Reset the player score to 0, possibly at the beginning of a new game
     public void ResetScore()
     {

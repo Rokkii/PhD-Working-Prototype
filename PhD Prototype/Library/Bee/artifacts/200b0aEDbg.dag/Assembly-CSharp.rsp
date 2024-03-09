@@ -366,6 +366,7 @@
 "Assets/Scripts/DebugMenu.cs"
 "Assets/Scripts/DifficultySetting.cs"
 "Assets/Scripts/LevelLoader.cs"
+"Assets/Scripts/npcMovement.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerFeedback.cs"
 "Assets/Scripts/ScoreBoard.cs"

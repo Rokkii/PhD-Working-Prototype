@@ -1,15 +1,16 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreBoard.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/npcMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" Line="8" Column="31" />
-      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="23" Column="1" />
-      <File FileName="Assets/Scripts/Timer.cs" Line="38" Column="41" />
-      <File FileName="Assets/Scripts/DifficultySetting.cs" Line="60" Column="26" />
-      <File FileName="Assets/Scripts/WASDMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/CameraSwitcher.cs" Line="14" Column="1" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" Line="35" Column="28" />
-      <File FileName="Assets/Scripts/DebugMenu.cs" Line="29" Column="82" />
+      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/Timer.cs" />
+      <File FileName="Assets/Scripts/DifficultySetting.cs" />
+      <File FileName="Assets/Scripts/WASDMovement.cs" />
+      <File FileName="Assets/Scripts/CameraSwitcher.cs" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" />
+      <File FileName="Assets/Scripts/DebugMenu.cs" />
       <File FileName="Assets/Scripts/PlayerFeedback.cs" Line="12" Column="66" />
+      <File FileName="Assets/Scripts/npcMovement.cs" Line="29" Column="70" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,22 +18,17 @@
           <Node name="PhD Prototype" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="ScoreBoard.cs" selected="True" />
+                <Node name="npcMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
-        </State>
-      </Pad>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Unity" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="01ce1d22-6eac-4195-9f5f-9c2c14af4fbb" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b076291c-4201-44be-a8f2-463bf784ad0a" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
