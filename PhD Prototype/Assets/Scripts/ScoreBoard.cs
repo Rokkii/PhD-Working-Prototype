@@ -10,14 +10,16 @@ public class ScoreBoard : MonoBehaviour
     public TMP_Text scoreBoardText;
     public float pointsAdded = 10.0f;
 
+    public bool scoreBoardActive = false;   // bool for checking if a scoreboard is in a scene, false by default, set in-client
+
     // Variables for multiple choice option scoring, set defaults but can be set per scene
     public float goodScore = 100.0f;
     public float okScore = 50.0f;
     public float badScore = 10.0f;
-
+    
     public void Start()
     {
-        scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
+        DisplayScore();
     }
 
     // Reset the player score to 0, possibly at the beginning of a new game
@@ -25,7 +27,7 @@ public class ScoreBoard : MonoBehaviour
     {
         playerScore = 0;
         print("Score reset! Player score is now: " + playerScore);
-        scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
+        DisplayScore();
     }
 
     // Add points to the players score (test)
@@ -34,7 +36,7 @@ public class ScoreBoard : MonoBehaviour
         playerScore += (pointsAdded * DifficultySetting.playerScoringSelection);
         print("Score Added! New score is: " + playerScore);
         print("Points added where: " + pointsAdded + " multiplied by difficulty of: " + DifficultySetting.playerScoringSelection);
-        scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
+        DisplayScore();
     }
 
     // Award points based on players choice - multiple choice selection questions
@@ -44,19 +46,26 @@ public class ScoreBoard : MonoBehaviour
         {
             playerScore += (goodScore * DifficultySetting.playerScoringSelection);
             print("Good choice! Adding points: " + goodScore + " multiplied by " + DifficultySetting.playerScoringSelection);
-            scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
         }
         else if (playerChoice.gameObject.tag == "OkChoice")
         {
             playerScore += (okScore * DifficultySetting.playerScoringSelection);
             print("OK choice! Adding points: " + okScore + " multiplied by " + DifficultySetting.playerScoringSelection);
-            scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
         }
         else if (playerChoice.gameObject.tag == "BadChoice")
         {
             playerScore += (badScore * DifficultySetting.playerScoringSelection);
             print("Bad choice! Adding points: " + badScore + " multiplied by " + DifficultySetting.playerScoringSelection);
-            scoreBoardText.text = playerScore.ToString("0");     // Outputs score as a text string
+        }
+        DisplayScore();
+    }
+
+    // Display current player score if a ScoreBoard is active
+    public void DisplayScore()
+    {
+        if (scoreBoardActive == true)
+        {
+            scoreBoardText.text = playerScore.ToString("0");    // Outputs score as a text string
         }
     }
 }

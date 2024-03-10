@@ -1,15 +1,15 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/npcMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreBoard.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" Line="8" Column="31" />
-      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="19" Column="6" />
+      <File FileName="Assets/Scripts/ScoreBoard.cs" Line="20" Column="24" />
       <File FileName="Assets/Scripts/Timer.cs" />
       <File FileName="Assets/Scripts/DifficultySetting.cs" />
       <File FileName="Assets/Scripts/WASDMovement.cs" />
       <File FileName="Assets/Scripts/CameraSwitcher.cs" />
       <File FileName="Assets/Scripts/LevelLoader.cs" />
       <File FileName="Assets/Scripts/DebugMenu.cs" />
-      <File FileName="Assets/Scripts/PlayerFeedback.cs" Line="12" Column="66" />
+      <File FileName="Assets/Scripts/PlayerFeedback.cs" />
       <File FileName="Assets/Scripts/npcMovement.cs" Line="29" Column="70" />
     </Files>
     <Pads>
@@ -18,7 +18,7 @@
           <Node name="PhD Prototype" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="npcMovement.cs" selected="True" />
+                <Node name="ScoreBoard.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -28,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b076291c-4201-44be-a8f2-463bf784ad0a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="9fcbab92-3ff7-482a-b129-4dba420e42e7" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
