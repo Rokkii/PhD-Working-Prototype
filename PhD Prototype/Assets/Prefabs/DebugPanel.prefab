@@ -641,6 +641,7 @@ MonoBehaviour:
   debugDifficulty: {fileID: 8723285467380717827}
   debugScoreMultiplier: {fileID: 937465735054333497}
   debugScenesToLoad: {fileID: 5258292517874743155}
+  debugPlayerFeedback: {fileID: 4652753243813816966}
 --- !u!1 &3735888607719989292
 GameObject:
   m_ObjectHideFlags: 0
