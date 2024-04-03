@@ -7,6 +7,13 @@ public class WASDMovement : MonoBehaviour
 
     public float playerSpeed = 10.0f;   // Declare player speed variable, set default speed
 
+    Animator rugbyAnimation;
+
+    private void Start()
+    {
+        rugbyAnimation = GetComponent<Animator>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -14,6 +21,7 @@ public class WASDMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             transform.position += Vector3.forward * playerSpeed * Time.deltaTime;
+            rugbyAnimation.SetFloat("Speed", playerSpeed);
         }
         // If W pressed, move back relative to player speed and in-game speed
         if (Input.GetKey(KeyCode.S))
@@ -29,6 +37,10 @@ public class WASDMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             transform.position += Vector3.right * playerSpeed * Time.deltaTime;
+        }
+        else if (Input.anyKeyDown == false)
+        {
+            rugbyAnimation.SetFloat("Speed", 0);
         }
     }
 }
