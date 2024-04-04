@@ -15,7 +15,7 @@ public class WASDMovement : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // If W pressed, move forward relative to player speed and in-game speed
         if (Input.GetKey(KeyCode.W))
