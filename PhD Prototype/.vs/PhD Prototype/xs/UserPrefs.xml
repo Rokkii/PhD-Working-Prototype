@@ -1,40 +1,39 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerAnimationController.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7f648a0f-5359-425d-8d42-1f5d6cede64b" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallCatcher.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
       <File FileName="Assets/Scripts/Timer.cs" />
       <File FileName="Assets/Scripts/DifficultySetting.cs" />
-      <File FileName="Assets/Scripts/WASDMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WASDMovement.cs" />
       <File FileName="Assets/Scripts/CameraSwitcher.cs" />
       <File FileName="Assets/Scripts/LevelLoader.cs" />
       <File FileName="Assets/Scripts/DebugMenu.cs" />
       <File FileName="Assets/Scripts/PlayerFeedback.cs" />
-      <File FileName="Assets/Scripts/npcMovement.cs" />
       <File FileName="Assets/Scripts/CollisionScoring.cs" />
       <File FileName="Assets/Scripts/InputActions/Movement.cs" />
-      <File FileName="Assets/Scripts/MobileMovement.cs" Line="28" Column="22" />
-      <File FileName="Assets/Scripts/PlayerAnimationController.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/MobileMovement.cs" />
+      <File FileName="Assets/Scripts/npcMovement.cs" Line="45" Column="58" />
+      <File FileName="Assets/Scripts/PlayerAnimationController.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/BallCatcher.cs" Line="26" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhD Prototype">
+          <Node name="PhD Prototype" expanded="True">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="PlayerAnimationController.cs" selected="True" />
-              </Node>
+              <Node name="Scripts" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b8055f5d-84c5-463c-9d39-bbf56dd9cc6e" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
