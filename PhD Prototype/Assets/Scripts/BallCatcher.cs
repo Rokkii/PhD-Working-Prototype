@@ -6,7 +6,7 @@ public class BallCatcher : MonoBehaviour
 {
     public Transform BallHoldingPosition;
 
-    public Transform BallTransofmrm;
+    public Transform BallTransform;
 
     public Transform target;
 
@@ -21,14 +21,14 @@ public class BallCatcher : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            BallTransofmrm.parent = BallHoldingPosition;
-            BallTransofmrm.localPosition = Vector3.zero;
-            BallTransofmrm.localEulerAngles = Vector3.zero;
+            BallTransform.parent = BallHoldingPosition;
+            BallTransform.localPosition = Vector3.zero;
+            BallTransform.localEulerAngles = Vector3.zero;
         }
 
         if (Input.GetKeyDown(KeyCode.P))
         {
-            BallTransofmrm.parent = null;
+            BallTransform.parent = null;
         }
 
         if(Input.GetKeyDown(KeyCode.X))
@@ -40,9 +40,9 @@ public class BallCatcher : MonoBehaviour
 
     void MoveBall(Vector3 targetpos)
     {
-        Rigidbody ballRgbd = BallTransofmrm.GetComponent<Rigidbody>();
+        Rigidbody ballRgbd = BallTransform.GetComponent<Rigidbody>();
 
-        Vector3 dir = (targetpos - BallTransofmrm.position).normalized;
+        Vector3 dir = (targetpos - BallTransform.position).normalized;
 
         ballRgbd.velocity = dir * 5;
     }

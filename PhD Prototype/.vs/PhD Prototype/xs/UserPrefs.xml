@@ -1,7 +1,6 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7f648a0f-5359-425d-8d42-1f5d6cede64b" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallCatcher.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/npcMovement.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
@@ -15,14 +14,14 @@
       <File FileName="Assets/Scripts/CollisionScoring.cs" />
       <File FileName="Assets/Scripts/InputActions/Movement.cs" />
       <File FileName="Assets/Scripts/MobileMovement.cs" />
-      <File FileName="Assets/Scripts/npcMovement.cs" Line="45" Column="58" />
+      <File FileName="Assets/Scripts/npcMovement.cs" Line="49" Column="36" />
       <File FileName="Assets/Scripts/PlayerAnimationController.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/BallCatcher.cs" Line="26" Column="57" />
+      <File FileName="Assets/Scripts/BallCatcher.cs" Line="36" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhD Prototype" expanded="True">
+          <Node name="PhD Prototype">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True" />
             </Node>
@@ -31,9 +30,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2991b9c0-ca85-4fd5-aafb-8e5390a9e324" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

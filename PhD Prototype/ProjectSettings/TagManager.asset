@@ -7,6 +7,9 @@ TagManager:
   - GoodChoice
   - OkChoice
   - BadChoice
+  - TackleTarget
+  - Tackler
+  - NPCTarget
   layers:
   - Default
   - TransparentFX

@@ -31,24 +31,33 @@ public class npcMovement : MonoBehaviour
         // If a target to move towards has been set, move towards it
         if (objectMovingTo != null)
         {
-            /*
-            transform.LookAt(objectMovingTo.transform);
-            transform.position += transform.forward * movementSpeed * Time.deltaTime;
-            npcAnimation.SetFloat("Speed", movementSpeed * Time.deltaTime);
-            */
-
             agent.SetDestination(objectMovingTo.transform.position);
+
+            npcAnimation.SetFloat("Speed", agent.velocity.magnitude);
+
+            npcAnimation.SetBool("BallCarrier", ballCarrier);
         }
-
-        npcAnimation.SetFloat("Speed", agent.velocity.magnitude);
-
-        npcAnimation.SetBool("BallCarrier", ballCarrier);
     }
 
     // Do something when collides with target
     private void OnCollisionEnter(Collision collision)
     {
-        print("You got tackled!");
-        objectMovingTo = null;      // Stop moving when collided with
+        if (collision.transform.tag == "Tackler")
+        {
+            npcAnimation.SetBool("BeenTackled", true);
+            print("You got tackled!");
+            agent.isStopped = true;
+        }
+        if (collision.transform.tag == "TackleTarget")
+        {
+            npcAnimation.SetBool("MakeTackle", true);
+            print("Tackle made!");
+            agent.isStopped = true;
+        }
+        if (collision.transform.tag == "NPCTarget")
+        {
+            print("Target reached by player");
+            agent.isStopped = true;
+        }
     }
 }
