@@ -460,6 +460,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1860105130}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &103512356
 GameObject:
@@ -1689,6 +1690,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 722190949}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!4 &360360334 stripped
 Transform:
@@ -1847,6 +1849,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1725233873}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &429510533
 GameObject:
@@ -2375,6 +2378,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &588122023
 GameObject:
@@ -3044,6 +3048,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 340539112}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1001 &724672751
 PrefabInstance:
@@ -3657,6 +3662,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1540117360}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1001 &792106624
 PrefabInstance:
@@ -4149,6 +4155,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 884798006}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &884798006 stripped
 GameObject:
@@ -4302,6 +4309,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 875935298}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &901868300
 GameObject:
@@ -4604,6 +4612,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1121174619}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &945325460
 GameObject:
@@ -5092,6 +5101,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1085329536}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!65 &1045004830
 BoxCollider:
@@ -5271,6 +5281,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!4 &1101646184 stripped
 Transform:
@@ -5429,6 +5440,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 940741162}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!4 &1128494709 stripped
 Transform:
@@ -6184,6 +6196,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1845113318}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1001 &1354174839
 PrefabInstance:
@@ -6481,6 +6494,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 2063335674}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1375932365 stripped
 GameObject:
@@ -6634,6 +6648,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1387278011
 GameObject:
@@ -6818,6 +6833,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 2062031140}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1410178457
 GameObject:
@@ -7022,6 +7038,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1045004822}
   changeTargetObj: {fileID: 2008379261}
   ballCarrier: 1
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!114 &1526565006
 MonoBehaviour:
@@ -7297,6 +7314,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 777207167}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!4 &1540117369 stripped
 Transform:
@@ -7654,6 +7672,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 415793632}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1746028159 stripped
 GameObject:
@@ -7807,6 +7826,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 2056117537}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1001 &1748971301
 PrefabInstance:
@@ -8073,6 +8093,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1879081379}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1001 &1765101330
 PrefabInstance:
@@ -8375,6 +8396,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1351625509}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1860105130 stripped
 GameObject:
@@ -8528,6 +8550,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 90726397}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1860865027 stripped
 GameObject:
@@ -8681,6 +8704,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1879081379 stripped
 GameObject:
@@ -8834,6 +8858,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1764106977}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &1896062343
 GameObject:
@@ -9175,6 +9200,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 1085329536}
   ballCarrier: 0
+  playerCrouched: 1
   movementSpeed: 10
 --- !u!1001 &2013821489
 PrefabInstance:
@@ -9621,6 +9647,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &2056117537 stripped
 GameObject:
@@ -9774,6 +9801,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1746028159}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &2062031140 stripped
 GameObject:
@@ -9927,6 +9955,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1394087160}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &2063335674 stripped
 GameObject:
@@ -10080,6 +10109,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 1367878078}
   changeTargetObj: {fileID: 0}
   ballCarrier: 0
+  playerCrouched: 0
   movementSpeed: 10
 --- !u!1 &2097667480
 GameObject:

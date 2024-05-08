@@ -16,6 +16,8 @@ public class npcMovement : MonoBehaviour
 
     public bool ballCarrier;
 
+    public bool playerCrouched = false;
+
     // Set the movement speed of the NPC, set to 2.0 by default, changed in-client
     public float movementSpeed = 2.0f;
 
@@ -37,6 +39,11 @@ public class npcMovement : MonoBehaviour
             npcAnimation.SetFloat("Speed", agent.velocity.magnitude);
 
             npcAnimation.SetBool("BallCarrier", ballCarrier);
+        }
+
+        if (playerCrouched == true)
+        {
+            npcAnimation.SetBool("IsCrouched", true);
         }
     }
 
