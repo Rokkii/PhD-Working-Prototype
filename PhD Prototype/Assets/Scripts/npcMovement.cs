@@ -8,6 +8,7 @@ public class npcMovement : MonoBehaviour
 {
     // Set a target game object to move towards
     public GameObject objectMovingTo;
+    public GameObject changeTargetObj;
 
     Animator npcAnimation;
 
@@ -54,10 +55,16 @@ public class npcMovement : MonoBehaviour
             print("Tackle made!");
             agent.isStopped = true;
         }
-        if (collision.transform.tag == "NPCTarget")
+        if (collision.gameObject == objectMovingTo)
         {
             print("Target reached by player");
             agent.isStopped = true;
         }
+    }
+
+    // If player chooses an action, change NPC movement target to a new gameobject
+    public void ChangeTargets()
+    {
+        objectMovingTo = changeTargetObj;
     }
 }
