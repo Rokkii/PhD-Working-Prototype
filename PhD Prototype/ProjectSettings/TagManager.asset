@@ -10,6 +10,7 @@ TagManager:
   - TackleTarget
   - Tackler
   - NPCTarget
+  - RugbyBall
   layers:
   - Default
   - TransparentFX

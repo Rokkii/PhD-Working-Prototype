@@ -87,4 +87,20 @@ public class npcMovement : MonoBehaviour
             print("No new targets, set in inspector for: " + gameObject.name);
         }
     }
+
+    // Change ball carrier when called, changing animation and where ball is
+    public void ChangeBallCarrier()
+    {
+        if (ballCarrier == true)
+        {
+            ballCarrier = false;
+            npcAnimation.SetBool("BallCarrier", ballCarrier);
+        }
+        else if (ballCarrier == false)
+        {
+            ballCarrier = true;
+            npcAnimation.SetBool("BallCarrier", ballCarrier);
+        }
+
+    }
 }
