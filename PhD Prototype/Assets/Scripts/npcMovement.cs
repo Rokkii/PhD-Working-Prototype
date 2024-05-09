@@ -8,7 +8,11 @@ public class npcMovement : MonoBehaviour
 {
     // Set a target game object to move towards
     public GameObject objectMovingTo;
-    public GameObject changeTargetObj;
+
+    // Set next targets, array so can allow as many targets as actions in a given scene
+    public GameObject[] changeTargetObj;
+
+    int actionCounter = 0;
 
     Animator npcAnimation;
 
@@ -72,6 +76,15 @@ public class npcMovement : MonoBehaviour
     // If player chooses an action, change NPC movement target to a new gameobject
     public void ChangeTargets()
     {
-        objectMovingTo = changeTargetObj;
+        if (actionCounter != changeTargetObj.Length)
+        {
+            objectMovingTo = changeTargetObj[actionCounter];
+            actionCounter++;
+            print("Action taken! Changing target for: " + gameObject.name + " Adding to action counter, counter is now at: " + actionCounter);
+        }
+        else if (actionCounter == changeTargetObj.Length)
+        {
+            print("No new targets, set in inspector for: " + gameObject.name);
+        }
     }
 }
