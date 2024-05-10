@@ -54,7 +54,7 @@ public class npcMovement : MonoBehaviour
     // Do something when collides with target
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.transform.tag == "Tackler")
+        if (collision.transform.tag == "Tackler" && ballCarrier == true)
         {
             npcAnimation.SetBool("BeenTackled", true);
             print("You got tackled!");
@@ -102,5 +102,11 @@ public class npcMovement : MonoBehaviour
             npcAnimation.SetBool("BallCarrier", ballCarrier);
         }
 
+    }
+
+    public void ResetBallCarrier()
+    {
+        ballCarrier = false;
+        npcAnimation.SetBool("BallCarrier", ballCarrier);
     }
 }

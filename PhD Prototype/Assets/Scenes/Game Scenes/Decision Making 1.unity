@@ -3934,6 +3934,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ResetBallCarrier
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ChangeTargets
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &659430532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8055,6 +8079,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ResetBallCarrier
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ChangeTargets
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2008379269}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ChangeBallCarrier
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1268465996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9822,7 +9882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectMovingTo: {fileID: 1680917916}
   changeTargetObj:
-  - {fileID: 2008379261}
+  - {fileID: 1045004822}
   ballCarrier: 1
   playerCrouched: 0
   movementSpeed: 10
@@ -11251,6 +11311,42 @@ MonoBehaviour:
       - m_Target: {fileID: 1762617142}
         m_TargetAssemblyTypeName: ChoiceMade, Assembly-CSharp
         m_MethodName: PlayerMadeDecision
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ResetBallCarrier
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1526565005}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ChangeTargets
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1540117367}
+        m_TargetAssemblyTypeName: npcMovement, Assembly-CSharp
+        m_MethodName: ChangeBallCarrier
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
