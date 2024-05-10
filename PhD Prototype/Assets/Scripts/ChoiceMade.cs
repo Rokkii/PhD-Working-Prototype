@@ -20,7 +20,13 @@ public class ChoiceMade : MonoBehaviour
     public GameObject dummyLookRight;
     public GameObject dummyOverheadCam;
 
-    public void SwitchPlayer()
+    // Array of objects to disable when a choice is made
+    public GameObject[] disableObjects;
+
+    // Array of objects to enable when a choice is made
+    public GameObject[] enableObjects;
+
+    public void PlayerMadeDecision()
     {
         // Set all active cameras to child of new player
         foreach (GameObject camerasToMove in cameraList)
@@ -28,10 +34,31 @@ public class ChoiceMade : MonoBehaviour
             camerasToMove.transform.parent = newPlayer.transform;
         }
 
-        // Set new camera positions based on position of dummy cameras on new player
-        lookForward.transform.position = dummyLookForward.transform.position;
-        lookLeft.transform.position = dummyLookLeft.transform.position;
-        lookRight.transform.position = dummyLookRight.transform.position;
-        overheadCam.transform.position = dummyOverheadCam.transform.position;
+        if (cameraList.Length != 0)
+        {
+            print("Choice made, cameras set to change with choice");
+
+            // Set new camera positions based on position of dummy cameras on new player
+            lookForward.transform.position = dummyLookForward.transform.position;
+            lookLeft.transform.position = dummyLookLeft.transform.position;
+            lookRight.transform.position = dummyLookRight.transform.position;
+            overheadCam.transform.position = dummyOverheadCam.transform.position;
+        }
+        else if (cameraList.Length == 0)
+        {
+            print("Choice made, no cameras to change");
+        }
+
+        // Disable objects from choice
+        foreach (GameObject objectDsiable in disableObjects)
+        {
+            objectDsiable.SetActive(false);
+        }
+
+        // Enable objects from choice
+        foreach (GameObject objectEnable in enableObjects)
+        {
+            objectEnable.SetActive(true);
+        }
     }
 }

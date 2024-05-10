@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2719,16 +2719,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 500003016}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 121.95, y: 6.0789547, z: -82.7}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2031819473}
   - {fileID: 169522762}
   - {fileID: 1700630235}
   - {fileID: 763967341}
-  m_Father: {fileID: 1987538961}
+  m_Father: {fileID: 1540117369}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &505748439
 GameObject:
@@ -3850,6 +3850,7 @@ GameObject:
   - component: {fileID: 659430533}
   - component: {fileID: 659430532}
   - component: {fileID: 659430531}
+  - component: {fileID: 659430534}
   m_Layer: 5
   m_Name: Kick
   m_TagString: Untagged
@@ -3920,7 +3921,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 659430532}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 659430534}
+        m_TargetAssemblyTypeName: ChoiceMade, Assembly-CSharp
+        m_MethodName: PlayerMadeDecision
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &659430532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3959,6 +3972,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 659430529}
   m_CullTransparentMesh: 1
+--- !u!114 &659430534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 659430529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3213253e366040589ad0c7af17538dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraList: []
+  newPlayer: {fileID: 0}
+  lookForward: {fileID: 0}
+  lookLeft: {fileID: 0}
+  lookRight: {fileID: 0}
+  overheadCam: {fileID: 0}
+  dummyLookForward: {fileID: 0}
+  dummyLookLeft: {fileID: 0}
+  dummyLookRight: {fileID: 0}
+  dummyOverheadCam: {fileID: 0}
+  disableObjects:
+  - {fileID: 1672628190}
+  enableObjects:
+  - {fileID: 2137601207}
 --- !u!1 &668959727
 GameObject:
   m_ObjectHideFlags: 0
@@ -4227,6 +4266,11 @@ Transform:
   - {fileID: 1360020911}
   m_Father: {fileID: 2008379262}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &698537247 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4798468476437920848, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+  m_PrefabInstance: {fileID: 733469365}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &718725587 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -4699,6 +4743,9 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 500003017}
     - targetCorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1010823715}
@@ -4858,6 +4905,7 @@ GameObject:
   - component: {fileID: 756469399}
   - component: {fileID: 756469398}
   - component: {fileID: 756469397}
+  - component: {fileID: 756469400}
   m_Layer: 5
   m_Name: Carry
   m_TagString: Untagged
@@ -4928,7 +4976,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 756469398}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 756469400}
+        m_TargetAssemblyTypeName: ChoiceMade, Assembly-CSharp
+        m_MethodName: PlayerMadeDecision
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &756469398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4967,6 +5027,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756469395}
   m_CullTransparentMesh: 1
+--- !u!114 &756469400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756469395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3213253e366040589ad0c7af17538dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameraList: []
+  newPlayer: {fileID: 0}
+  lookForward: {fileID: 0}
+  lookLeft: {fileID: 0}
+  lookRight: {fileID: 0}
+  overheadCam: {fileID: 0}
+  dummyLookForward: {fileID: 0}
+  dummyLookLeft: {fileID: 0}
+  dummyLookRight: {fileID: 0}
+  dummyOverheadCam: {fileID: 0}
+  disableObjects:
+  - {fileID: 1672628190}
+  enableObjects:
+  - {fileID: 2137601207}
 --- !u!1 &763967340
 GameObject:
   m_ObjectHideFlags: 0
@@ -7959,7 +8045,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1268465998}
         m_TargetAssemblyTypeName: ChoiceMade, Assembly-CSharp
-        m_MethodName: SwitchPlayer
+        m_MethodName: PlayerMadeDecision
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8033,6 +8119,10 @@ MonoBehaviour:
   dummyLookLeft: {fileID: 1958117932}
   dummyLookRight: {fileID: 1947871172}
   dummyOverheadCam: {fileID: 1360020910}
+  disableObjects:
+  - {fileID: 1672628190}
+  enableObjects:
+  - {fileID: 2137601207}
 --- !u!4 &1280206907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -10007,7 +10097,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d9a2bf59ab004cee887494151078544, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectMovingTo: {fileID: 777207167}
+  objectMovingTo: {fileID: 1045004822}
   changeTargetObj: []
   ballCarrier: 0
   playerCrouched: 0
@@ -11160,7 +11250,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1762617142}
         m_TargetAssemblyTypeName: ChoiceMade, Assembly-CSharp
-        m_MethodName: SwitchPlayer
+        m_MethodName: PlayerMadeDecision
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11220,8 +11310,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3213253e366040589ad0c7af17538dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraList: []
-  newPlayer: {fileID: 1098832438}
+  cameraList:
+  - {fileID: 1896062343}
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  newPlayer: {fileID: 698537247}
   lookForward: {fileID: 1896062343}
   lookLeft: {fileID: 603638364}
   lookRight: {fileID: 1304086211}
@@ -11230,6 +11324,10 @@ MonoBehaviour:
   dummyLookLeft: {fileID: 169522761}
   dummyLookRight: {fileID: 1700630234}
   dummyOverheadCam: {fileID: 763967340}
+  disableObjects:
+  - {fileID: 1672628190}
+  enableObjects:
+  - {fileID: 2137601207}
 --- !u!1 &1764106977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -12929,7 +13027,6 @@ Transform:
   - {fileID: 1845113319}
   - {fileID: 558138565}
   - {fileID: 1098832439}
-  - {fileID: 500003017}
   - {fileID: 2008379262}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -14802,7 +14899,7 @@ SceneRoots:
   - {fileID: 1987538961}
   - {fileID: 1035508618}
   - {fileID: 287728395}
-  - {fileID: 668959731}
   - {fileID: 1192151708}
   - {fileID: 792106624}
+  - {fileID: 668959731}
   - {fileID: 675764934}
