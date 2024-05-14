@@ -49,6 +49,12 @@ public class LevelLoader : MonoBehaviour
             gameSceneNumber = 0;
             SceneManager.LoadScene(homeScene);
         }
+        // If no scenes in the list, load home screen, console warning
+        else if (sceneList.Length == 0)
+        {
+            print("No scenes in list to load! Loading home screen");
+            SceneManager.LoadScene(homeScene);
+        }
     }
 
     public void ChangeScene(string loadLevelName)
