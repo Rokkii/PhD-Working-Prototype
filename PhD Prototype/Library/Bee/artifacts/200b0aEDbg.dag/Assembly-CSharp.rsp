@@ -360,6 +360,7 @@
 "Assets/Joystick Pack/Scripts/Joysticks/FixedJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/FloatingJoystick.cs"
 "Assets/Joystick Pack/Scripts/Joysticks/VariableJoystick.cs"
+"Assets/Scripts/BallBehaviour.cs"
 "Assets/Scripts/BallCatcher.cs"
 "Assets/Scripts/CameraSwitcher.cs"
 "Assets/Scripts/ChoiceMade.cs"

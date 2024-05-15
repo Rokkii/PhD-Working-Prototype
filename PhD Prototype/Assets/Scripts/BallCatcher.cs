@@ -10,15 +10,25 @@ public class BallCatcher : MonoBehaviour
 
     public Transform target;
 
+    public bool HoldingBall = false;
+
+    npcMovement npc;
+    BallBehaviour ballBehaviour;
+
     // Start is called before the first frame update
     void Start()
     {
+        npc = GetComponent<npcMovement>();
+        HoldingBall = npc.ballCarrier;
+        if (BallTransform != null)
+            ballBehaviour = BallTransform.GetComponent<BallBehaviour>();
         
     }
 
     // Update is called once per frame
     void Update()
     {
+        HoldingBall = npc.ballCarrier;
         if (Input.GetKeyDown(KeyCode.Space))
         {
             BallTransform.parent = BallHoldingPosition;
@@ -33,11 +43,27 @@ public class BallCatcher : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.X))
         {
-            MoveBall(target.position);
+            if (HoldingBall)
+            {
+                MoveBall(target.position);
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (HoldingBall)
+            {
+                ballBehaviour.Target = target;
+                ballBehaviour.passed = true;
+            }
         }
     }
 
+    void PassBall(Vector3 Target)
+    {
 
+    }
+
+    // Moves ball with target requirement
     void MoveBall(Vector3 targetpos)
     {
         Rigidbody ballRgbd = BallTransform.GetComponent<Rigidbody>();

@@ -279,6 +279,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -354,6 +358,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 142687107}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &90726401
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -431,7 +436,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &90726404
 MonoBehaviour:
@@ -904,6 +909,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1307,6 +1316,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1425,6 +1438,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1666,6 +1683,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1841,6 +1862,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1876,7 +1901,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1526565003}
     m_Modifications:
     - target: {fileID: 749751733773534463, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       propertyPath: m_Layer
@@ -1892,39 +1917,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 290.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 38.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -142.8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.x
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.18000488
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.207
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.623
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalRotation.w
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1964,6 +1989,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1640378194}
+    - targetCorrespondingSourceObject: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1640378196}
   m_SourcePrefab: {fileID: 100100000, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
 --- !u!4 &287728396 stripped
 Transform:
@@ -2054,6 +2082,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2166,6 +2198,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1410178458}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1410178458}
+  HoldingBall: 0
 --- !u!195 &340539116
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2243,7 +2276,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &340539119
 MonoBehaviour:
@@ -2325,6 +2358,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 103512357}
   BallTransform: {fileID: 287728396}
   target: {fileID: 103512357}
+  HoldingBall: 0
 --- !u!195 &415793636
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -2402,7 +2436,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &415793639
 MonoBehaviour:
@@ -2548,6 +2582,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2661,6 +2699,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -2948,6 +2990,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -3133,6 +3179,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 128267886}
   BallTransform: {fileID: 287728396}
   target: {fileID: 128267886}
+  HoldingBall: 0
 --- !u!195 &558138568
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -3210,7 +3257,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &558138571
 MonoBehaviour:
@@ -3364,99 +3411,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!1001 &623462729
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1526565003}
-    m_Modifications:
-    - target: {fileID: 749751733773534463, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1444476513563077369, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4907704124148756599, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.18
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.48
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6518892706209947249, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Name
-      value: Rugby Ball (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-      propertyPath: m_TagString
-      value: RugbyBall
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
 --- !u!1 &640068153
 GameObject:
   m_ObjectHideFlags: 0
@@ -3675,6 +3629,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4346,6 +4304,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 429510534}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &722190953
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -4423,7 +4382,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &722190956
 MonoBehaviour:
@@ -4538,6 +4497,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4651,6 +4614,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4764,6 +4731,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -4880,6 +4851,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5215,6 +5190,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2021687119}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &777207171
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5292,7 +5268,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &777207174
 MonoBehaviour:
@@ -5474,6 +5450,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5738,6 +5718,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -5813,6 +5797,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 901868301}
   BallTransform: {fileID: 287728396}
   target: {fileID: 901868301}
+  HoldingBall: 0
 --- !u!195 &875935302
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -5890,7 +5875,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &875935305
 MonoBehaviour:
@@ -5967,6 +5952,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 945325461}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &884798010
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6044,7 +6030,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &884798013
 MonoBehaviour:
@@ -6190,6 +6176,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -6270,6 +6260,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 670336060}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &940741166
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6347,7 +6338,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &940741169
 MonoBehaviour:
@@ -6700,6 +6691,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -6759,6 +6754,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1387278012}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1045004825
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -6836,7 +6832,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1045004828
 MonoBehaviour:
@@ -7073,6 +7069,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 676335244}
   BallTransform: {fileID: 287728396}
   target: {fileID: 676335244}
+  HoldingBall: 0
 --- !u!195 &1098832442
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7150,7 +7147,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1098832445
 MonoBehaviour:
@@ -7232,6 +7229,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2097667481}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2097667481}
+  HoldingBall: 0
 --- !u!195 &1121174623
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7309,7 +7307,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1121174626
 MonoBehaviour:
@@ -7465,6 +7463,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -7740,6 +7742,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8802,6 +8808,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 957638997}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1351625513
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8879,7 +8886,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1351625516
 MonoBehaviour:
@@ -8994,6 +9001,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9192,6 +9203,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1142319004}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1367878082
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9269,7 +9281,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1367878085
 MonoBehaviour:
@@ -9346,6 +9358,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 270470843}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1375932369
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9423,7 +9436,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1375932372
 MonoBehaviour:
@@ -9531,6 +9544,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 218789699}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1394087164
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -9608,7 +9622,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1394087167
 MonoBehaviour:
@@ -9828,6 +9842,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -9836,7 +9854,7 @@ PrefabInstance:
       addedObject: {fileID: 1858659610}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1878353443}
+      addedObject: {fileID: 287728396}
     - targetCorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 808102635}
@@ -9923,7 +9941,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1526565008
 MonoBehaviour:
@@ -9991,7 +10009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BallHoldingPosition: {fileID: 808102635}
   BallTransform: {fileID: 287728396}
-  target: {fileID: 808102635}
+  target: {fileID: 1361667315}
+  HoldingBall: 0
 --- !u!65 &1526565012
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10054,6 +10073,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1010823715}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1010823715}
+  HoldingBall: 0
 --- !u!195 &1540117363
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10131,7 +10151,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1540117366
 MonoBehaviour:
@@ -10382,8 +10402,24 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1640378196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1640378193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e9c28ca8079f458d94e58f15185f7b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  passed: 0
+  kicked: 0
+  Target: {fileID: 0}
+  speed: 2
 --- !u!1001 &1654230726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10468,6 +10504,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -10810,6 +10850,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2116251343}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1725233877
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -10887,7 +10928,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1725233880
 MonoBehaviour:
@@ -10964,6 +11005,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1833842299}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1833842299}
+  HoldingBall: 0
 --- !u!195 &1746028163
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11041,7 +11083,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1746028166
 MonoBehaviour:
@@ -11195,6 +11237,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -11470,6 +11516,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 588122024}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1764106981
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11547,7 +11594,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1764106984
 MonoBehaviour:
@@ -11662,6 +11709,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -11773,6 +11824,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1196246426}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1196246426}
+  HoldingBall: 0
 --- !u!195 &1845113322
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -11850,7 +11902,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1845113325
 MonoBehaviour:
@@ -11962,6 +12014,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1711931559}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1711931559}
+  HoldingBall: 0
 --- !u!195 &1860105134
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12039,7 +12092,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1860105137
 MonoBehaviour:
@@ -12116,6 +12169,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 54493392}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &1860865031
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12193,7 +12247,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1860865034
 MonoBehaviour:
@@ -12358,11 +12412,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1864026577}
   m_CullTransparentMesh: 1
---- !u!4 &1878353443 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5821024171121717115, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
-  m_PrefabInstance: {fileID: 623462729}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1879081379 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -12409,6 +12458,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1361667315}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1361667315}
+  HoldingBall: 0
 --- !u!195 &1879081383
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -12486,7 +12536,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &1879081386
 MonoBehaviour:
@@ -13203,6 +13253,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2005669624}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2005669624}
+  HoldingBall: 0
 --- !u!195 &2008379265
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13280,7 +13331,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &2008379268
 MonoBehaviour:
@@ -13397,6 +13448,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13669,6 +13724,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -13744,6 +13803,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 67997690}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &2045868858
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13821,7 +13881,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &2045868861
 MonoBehaviour:
@@ -13898,6 +13958,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1480273491}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  HoldingBall: 0
 --- !u!195 &2056117541
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -13975,7 +14036,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &2056117544
 MonoBehaviour:
@@ -14052,6 +14113,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2041342045}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2041342045}
+  HoldingBall: 0
 --- !u!195 &2062031144
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14129,7 +14191,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &2062031147
 MonoBehaviour:
@@ -14206,6 +14268,7 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 259854395}
   BallTransform: {fileID: 287728396}
   target: {fileID: 259854395}
+  HoldingBall: 0
 --- !u!195 &2063335678
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -14283,7 +14346,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 116
   m_CollisionDetection: 0
 --- !u!114 &2063335681
 MonoBehaviour:
@@ -14521,6 +14584,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -14634,6 +14701,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 79584964ffb4fd14d9e11e6f7595a7bb, type: 2}
+    - target: {fileID: 5866666021909216657, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
+      propertyPath: m_ApplyRootMotion
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -15021,7 +15092,6 @@ SceneRoots:
   - {fileID: 1526565002}
   - {fileID: 1987538961}
   - {fileID: 1035508618}
-  - {fileID: 287728395}
   - {fileID: 1192151708}
   - {fileID: 792106624}
   - {fileID: 668959731}
