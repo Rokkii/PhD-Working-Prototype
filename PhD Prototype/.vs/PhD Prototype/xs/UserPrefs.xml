@@ -1,40 +1,43 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/npcMovement.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallCatcher.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
       <File FileName="Assets/Scripts/Timer.cs" />
       <File FileName="Assets/Scripts/DifficultySetting.cs" />
       <File FileName="Assets/Scripts/WASDMovement.cs" />
-      <File FileName="Assets/Scripts/CameraSwitcher.cs" Line="11" Column="40" />
+      <File FileName="Assets/Scripts/CameraSwitcher.cs" />
       <File FileName="Assets/Scripts/LevelLoader.cs" />
       <File FileName="Assets/Scripts/DebugMenu.cs" />
-      <File FileName="Assets/Scripts/PlayerFeedback.cs" Line="16" Column="6" />
+      <File FileName="Assets/Scripts/PlayerFeedback.cs" />
       <File FileName="Assets/Scripts/CollisionScoring.cs" />
       <File FileName="Assets/Scripts/InputActions/Movement.cs" />
       <File FileName="Assets/Scripts/MobileMovement.cs" />
-      <File FileName="Assets/Scripts/npcMovement.cs" Line="63" Column="54" />
+      <File FileName="Assets/Scripts/npcMovement.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/PlayerAnimationController.cs" />
-      <File FileName="Assets/Scripts/BallCatcher.cs" />
+      <File FileName="Assets/Scripts/BallCatcher.cs" Line="33" Column="59" />
       <File FileName="Assets/Scripts/ChoiceMade.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="28" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="PhD Prototype">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="BallCatcher.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2b21725f-666c-42e3-842a-96a4777e6a81" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f6582a7-f67d-4d10-b3ee-bc3e386b3023" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
 </Properties>

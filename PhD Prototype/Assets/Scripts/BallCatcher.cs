@@ -29,6 +29,8 @@ public class BallCatcher : MonoBehaviour
     void Update()
     {
         HoldingBall = npc.ballCarrier;
+
+        // Catching a ball - should go in oncollisionenter
         if (Input.GetKeyDown(KeyCode.Space))
         {
             BallTransform.parent = BallHoldingPosition;
@@ -36,6 +38,7 @@ public class BallCatcher : MonoBehaviour
             BallTransform.localEulerAngles = Vector3.zero;
         }
 
+        // Dropping a ball
         if (Input.GetKeyDown(KeyCode.P))
         {
             BallTransform.parent = null;
@@ -48,8 +51,11 @@ public class BallCatcher : MonoBehaviour
                 MoveBall(target.position);
             }
         }
+
+        // Passing the ball to a target
         if (Input.GetKeyDown(KeyCode.C))
         {
+            // pass ball, can make public method
             if (HoldingBall)
             {
                 ballBehaviour.Target = target;
