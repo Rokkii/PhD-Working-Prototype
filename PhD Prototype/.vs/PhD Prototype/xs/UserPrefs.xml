@@ -1,9 +1,12 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallCatcher.cs">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8e11bd2-b9b5-41b5-ab41-431d224a86cd" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollisionScoring.cs">
     <Files>
       <File FileName="Assets/Scripts/PauseMenu.cs" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
@@ -14,14 +17,13 @@
       <File FileName="Assets/Scripts/LevelLoader.cs" />
       <File FileName="Assets/Scripts/DebugMenu.cs" />
       <File FileName="Assets/Scripts/PlayerFeedback.cs" />
-      <File FileName="Assets/Scripts/CollisionScoring.cs" />
+      <File FileName="Assets/Scripts/CollisionScoring.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/InputActions/Movement.cs" />
       <File FileName="Assets/Scripts/MobileMovement.cs" />
-      <File FileName="Assets/Scripts/npcMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/npcMovement.cs" />
       <File FileName="Assets/Scripts/PlayerAnimationController.cs" />
       <File FileName="Assets/Scripts/BallCatcher.cs" Line="33" Column="59" />
-      <File FileName="Assets/Scripts/ChoiceMade.cs" Line="36" Column="1" />
-      <File FileName="Assets/Scripts/NewMonoBehaviour.cs" Line="28" Column="6" />
+      <File FileName="Assets/Scripts/ChoiceMade.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,7 +31,7 @@
           <Node name="PhD Prototype">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="BallCatcher.cs" selected="True" />
+                <Node name="CollisionScoring.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -37,7 +39,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8f6582a7-f67d-4d10-b3ee-bc3e386b3023" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
 </Properties>
