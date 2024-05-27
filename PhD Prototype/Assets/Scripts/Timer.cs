@@ -27,6 +27,8 @@ public class Timer : MonoBehaviour
     // Declare public game object, to control when to activate (deactivate by default)
     public GameObject questionUI;
 
+    public GameObject[] disableUITimeExpired;
+
     // Update is called once per frame
     void Update()
     {
@@ -69,12 +71,15 @@ public class Timer : MonoBehaviour
     {
         print("This was a question timer!");
         questionUI.SetActive(true);
+        Time.timeScale = 0.0f;
     }
 
     // Start a wait timer if player made a choice to trigger game UI
     public void waitTimer()
     {
         timerActive = true;
+        foreach (GameObject disableUI in disableUITimeExpired)
+            disableUI.SetActive(false);
     }
 
 }

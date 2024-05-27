@@ -114,4 +114,14 @@ public class BallCatcher : MonoBehaviour
             player.tag = "NPCTarget";
         }
     }
+    /*
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.transform == target)
+        {
+            BallTransform.parent = BallHoldingPosition;
+            BallTransform.localPosition = Vector3.zero;
+            BallTransform.localEulerAngles = Vector3.zero;
+        }
+    }*/
 }
