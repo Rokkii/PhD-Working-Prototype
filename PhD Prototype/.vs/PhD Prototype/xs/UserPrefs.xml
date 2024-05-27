@@ -1,16 +1,14 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c8e11bd2-b9b5-41b5-ab41-431d224a86cd" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CollisionScoring.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PauseMenu.cs">
     <Files>
-      <File FileName="Assets/Scripts/PauseMenu.cs" />
+      <File FileName="Assets/Scripts/PauseMenu.cs" Line="32" Column="27" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
-      <File FileName="Assets/Scripts/Timer.cs" />
+      <File FileName="Assets/Scripts/Timer.cs" Line="67" Column="29" />
       <File FileName="Assets/Scripts/DifficultySetting.cs" />
       <File FileName="Assets/Scripts/WASDMovement.cs" />
       <File FileName="Assets/Scripts/CameraSwitcher.cs" />
@@ -22,8 +20,7 @@
       <File FileName="Assets/Scripts/MobileMovement.cs" />
       <File FileName="Assets/Scripts/npcMovement.cs" />
       <File FileName="Assets/Scripts/PlayerAnimationController.cs" />
-      <File FileName="Assets/Scripts/BallCatcher.cs" Line="33" Column="59" />
-      <File FileName="Assets/Scripts/ChoiceMade.cs" />
+      <File FileName="Assets/Scripts/BallCatcher.cs" Line="114" Column="38" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -31,7 +28,7 @@
           <Node name="PhD Prototype">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="CollisionScoring.cs" selected="True" />
+                <Node name="PauseMenu.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -39,4 +36,6 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1ea951a7-3e75-4055-84c6-cba4bce3a04e" />
 </Properties>

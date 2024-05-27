@@ -10,6 +10,12 @@ public class BallCatcher : MonoBehaviour
 
     public Transform target;
 
+    public Transform passLeftTarget;
+    public Transform passRightTarget;
+    public Transform kickTarget;
+
+    public GameObject player;
+
     public bool HoldingBall = false;
 
     npcMovement npc;
@@ -64,11 +70,6 @@ public class BallCatcher : MonoBehaviour
         }
     }
 
-    void PassBall(Vector3 Target)
-    {
-
-    }
-
     // Moves ball with target requirement
     void MoveBall(Vector3 targetpos)
     {
@@ -77,5 +78,40 @@ public class BallCatcher : MonoBehaviour
         Vector3 dir = (targetpos - BallTransform.position).normalized;
 
         ballRgbd.velocity = dir * 5;
+    }
+
+    public void PassLeft()
+    {
+        // pass ball, can make public method
+        if (HoldingBall)
+        {
+            target = passLeftTarget;
+            ballBehaviour.Target = target;
+            ballBehaviour.passed = true;
+        }
+    }
+
+    public void PassRight()
+    {
+        // pass ball, can make public method
+        if (HoldingBall)
+        {
+            target = passRightTarget;
+            ballBehaviour.Target = target;
+            ballBehaviour.passed = true;
+        }
+    }
+
+    public void Kick()
+    {
+        // pass ball, can make public method
+        if (HoldingBall)
+        {
+            target = kickTarget;
+            ballBehaviour.Target = target;
+            ballBehaviour.passed = true;
+            BallTransform.parent = target;
+            player.tag = "NPCTarget";
+        }
     }
 }

@@ -33,7 +33,8 @@ public class Timer : MonoBehaviour
         if (timerActive == true && timeRemaining >= 0)
         {
             timeRemaining -= 1 * Time.deltaTime;
-            timer.text = timeRemaining.ToString("0.0");
+            if (timer != null)
+                timer.text = timeRemaining.ToString("0.0");
         }
         else if (timerActive == true && timerExpired == false)
         {
@@ -63,11 +64,17 @@ public class Timer : MonoBehaviour
     }
 
 
-    // Display a question if timer is to show this after set time
+    // Display a question/UI if timer is to show this after set time
     public void QuestionTimer()
     {
         print("This was a question timer!");
         questionUI.SetActive(true);
+    }
+
+    // Start a wait timer if player made a choice to trigger game UI
+    public void waitTimer()
+    {
+        timerActive = true;
     }
 
 }

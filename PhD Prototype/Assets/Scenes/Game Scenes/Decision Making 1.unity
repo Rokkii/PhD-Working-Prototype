@@ -358,6 +358,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 142687107}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &90726401
 NavMeshAgent:
@@ -2020,7 +2024,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 14.399998
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2150,6 +2154,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1680917917}
+  - {fileID: 1582998317}
   m_Father: {fileID: 1192151708}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &340539112 stripped
@@ -2198,6 +2203,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1410178458}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1410178458}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &340539116
 NavMeshAgent:
@@ -2358,6 +2367,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 103512357}
   BallTransform: {fileID: 287728396}
   target: {fileID: 103512357}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &415793636
 NavMeshAgent:
@@ -3313,6 +3326,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 128267886}
   BallTransform: {fileID: 287728396}
   target: {fileID: 128267886}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &558138568
 NavMeshAgent:
@@ -4086,6 +4103,30 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 668959732}
+        m_TargetAssemblyTypeName: Timer, Assembly-CSharp
+        m_MethodName: waitTimer
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1526565011}
+        m_TargetAssemblyTypeName: BallCatcher, Assembly-CSharp
+        m_MethodName: Kick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &659430532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4148,8 +4189,7 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 0}
   disableObjects:
   - {fileID: 1672628190}
-  enableObjects:
-  - {fileID: 2137601207}
+  enableObjects: []
 --- !u!1 &668959727
 GameObject:
   m_ObjectHideFlags: 0
@@ -4162,6 +4202,7 @@ GameObject:
   - component: {fileID: 668959730}
   - component: {fileID: 668959729}
   - component: {fileID: 668959728}
+  - component: {fileID: 668959732}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -4253,6 +4294,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &668959732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 668959727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a619bea0cda414da8f83f0fe520126, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timer: {fileID: 0}
+  timeRemaining: 3
+  timeGone: 0
+  timerActive: 0
+  timerExpired: 0
+  questionTimer: 1
+  questionUI: {fileID: 2137601207}
 --- !u!1 &670336059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4474,6 +4534,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 429510534}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &722190953
 NavMeshAgent:
@@ -5360,6 +5424,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2021687119}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &777207171
 NavMeshAgent:
@@ -5967,6 +6035,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 901868301}
   BallTransform: {fileID: 287728396}
   target: {fileID: 901868301}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &875935302
 NavMeshAgent:
@@ -6122,6 +6194,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 945325461}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &884798010
 NavMeshAgent:
@@ -6430,6 +6506,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 670336060}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &940741166
 NavMeshAgent:
@@ -6924,6 +7004,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1387278012}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1045004825
 NavMeshAgent:
@@ -7239,6 +7323,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 676335244}
   BallTransform: {fileID: 287728396}
   target: {fileID: 676335244}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1098832442
 NavMeshAgent:
@@ -7399,6 +7487,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2097667481}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2097667481}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1121174623
 NavMeshAgent:
@@ -8978,6 +9070,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 957638997}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1351625513
 NavMeshAgent:
@@ -9373,6 +9469,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1142319004}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1367878082
 NavMeshAgent:
@@ -9528,6 +9628,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 270470843}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1375932369
 NavMeshAgent:
@@ -9714,6 +9818,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 218789699}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1394087164
 NavMeshAgent:
@@ -10191,8 +10299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectMovingTo: {fileID: 1680917916}
-  changeTargetObj:
-  - {fileID: 1045004822}
+  changeTargetObj: []
   ballCarrier: 1
   playerCrouched: 0
   movementSpeed: 10
@@ -10302,6 +10409,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 808102635}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1361667315}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 1582998317}
+  player: {fileID: 1085329536}
   HoldingBall: 0
 --- !u!65 &1526565012
 BoxCollider:
@@ -10365,6 +10476,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1010823715}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1010823715}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1540117363
 NavMeshAgent:
@@ -10479,6 +10594,111 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
   m_PrefabInstance: {fileID: 733469365}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1582998316
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1582998317}
+  - component: {fileID: 1582998320}
+  - component: {fileID: 1582998319}
+  - component: {fileID: 1582998318}
+  m_Layer: 0
+  m_Name: KickTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1582998317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582998316}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -66.9, y: -32.5, z: -0.7}
+  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 334296591}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1582998318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582998316}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1582998319
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582998316}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 6469ade92d4b853448c490e08a82912a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1582998320
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1582998316}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1629998771
 GameObject:
   m_ObjectHideFlags: 0
@@ -11142,6 +11362,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2116251343}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1725233877
 NavMeshAgent:
@@ -11297,6 +11521,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1833842299}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1833842299}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1746028163
 NavMeshAgent:
@@ -11808,6 +12036,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 588122024}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1764106981
 NavMeshAgent:
@@ -12116,6 +12348,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1196246426}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1196246426}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1845113322
 NavMeshAgent:
@@ -12306,6 +12542,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1711931559}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1711931559}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1860105134
 NavMeshAgent:
@@ -12461,6 +12701,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 54493392}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1860865031
 NavMeshAgent:
@@ -12750,6 +12994,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1361667315}
   BallTransform: {fileID: 287728396}
   target: {fileID: 1361667315}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1879081383
 NavMeshAgent:
@@ -13545,6 +13793,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2005669624}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2005669624}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &2008379265
 NavMeshAgent:
@@ -14095,6 +14347,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 67997690}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &2045868858
 NavMeshAgent:
@@ -14250,6 +14506,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1480273491}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &2056117541
 NavMeshAgent:
@@ -14405,6 +14665,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 2041342045}
   BallTransform: {fileID: 287728396}
   target: {fileID: 2041342045}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &2062031144
 NavMeshAgent:
@@ -14560,6 +14824,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 259854395}
   BallTransform: {fileID: 287728396}
   target: {fileID: 259854395}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &2063335678
 NavMeshAgent:
