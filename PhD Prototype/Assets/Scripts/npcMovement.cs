@@ -25,6 +25,10 @@ public class npcMovement : MonoBehaviour
     // Set the movement speed of the NPC, set to 2.0 by default, changed in-client
     public float movementSpeed = 2.0f;
 
+    // Gameobjects to change tags of
+    public GameObject previousPlayer;
+    public GameObject newPlayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -100,6 +104,8 @@ public class npcMovement : MonoBehaviour
         {
             ballCarrier = true;
             npcAnimation.SetBool("BallCarrier", ballCarrier);
+            newPlayer.tag = "TackleTarget";
+            previousPlayer.tag = "NPCTarget";
         }
 
     }
@@ -108,5 +114,13 @@ public class npcMovement : MonoBehaviour
     {
         ballCarrier = false;
         npcAnimation.SetBool("BallCarrier", ballCarrier);
+    }
+
+    // Stop NPC from moving by clearing target array
+    public void StopMoving()
+    {
+        actionCounter = changeTargetObj.Length;
+        objectMovingTo = null;
+        agent.isStopped = true;
     }
 }
