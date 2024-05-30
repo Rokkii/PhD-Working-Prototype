@@ -25,9 +25,13 @@ public class npcMovement : MonoBehaviour
     // Set the movement speed of the NPC, set to 2.0 by default, changed in-client
     public float movementSpeed = 2.0f;
 
-    // Gameobjects to change tags of
+    // Game objects to change tags of
     public GameObject previousPlayer;
     public GameObject newPlayer;
+
+    // Game objects to toggle UI and timer if player tackled
+    public GameObject tackledTimer;
+    public GameObject tackledUI;
 
     // Start is called before the first frame update
     void Start()
@@ -63,6 +67,8 @@ public class npcMovement : MonoBehaviour
             npcAnimation.SetBool("BeenTackled", true);
             print("You got tackled!");
             agent.isStopped = true;
+            tackledTimer.GetComponent<Timer>().waitTimer();
+            tackledUI.gameObject.SetActive(true);
         }
         if (collision.transform.tag == "TackleTarget")
         {
