@@ -2802,7 +2802,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 0}
   disableObjects:
   - {fileID: 1047595354}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!114 &259473505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5190,8 +5198,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 989600313}
   disableObjects:
   - {fileID: 1047595354}
-  - {fileID: 639648636}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!114 &470435950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7789,7 +7804,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 0}
   disableObjects:
   - {fileID: 1672628190}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!1 &662941189
 GameObject:
   m_ObjectHideFlags: 0
@@ -9488,7 +9511,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 0}
   disableObjects:
   - {fileID: 1672628190}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!1 &759633531
 GameObject:
   m_ObjectHideFlags: 0
@@ -13907,7 +13938,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 1360020910}
   disableObjects:
   - {fileID: 1047595354}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!114 &1132685041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15336,7 +15375,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 1360020910}
   disableObjects:
   - {fileID: 1672628190}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!4 &1280206907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -15479,7 +15526,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 0}
   disableObjects:
   - {fileID: 1047595354}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!114 &1294076825
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20703,7 +20758,15 @@ MonoBehaviour:
   dummyOverheadCam: {fileID: 763967340}
   disableObjects:
   - {fileID: 1672628190}
-  enableObjects: []
+  - {fileID: 603638364}
+  - {fileID: 1304086211}
+  - {fileID: 224232102}
+  - {fileID: 149978768}
+  enableObjects:
+  - {fileID: 1896062343}
+  - {fileID: 97034200}
+  - {fileID: 1629998771}
+  - {fileID: 1178129492}
 --- !u!1 &1764106977 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}

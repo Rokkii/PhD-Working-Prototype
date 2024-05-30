@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -133,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_text
-      value: In the follow scenarios, you will be presented with different decisions
+      value: In the following scenarios, you will be presented with different decisions
         to make based on what you see. You control the ball carrier (blue team) in
         each scenario. You can kick, carry or pass in every decision. You are also
         able to look left, right and overhead to help your decision.
@@ -917,6 +917,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 1387278012}
   BallTransform: {fileID: 0}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!195 &1045004825
 NavMeshAgent:
@@ -1026,6 +1030,10 @@ MonoBehaviour:
   ballCarrier: 0
   playerCrouched: 0
   movementSpeed: 10
+  previousPlayer: {fileID: 0}
+  newPlayer: {fileID: 0}
+  tackledTimer: {fileID: 0}
+  tackledUI: {fileID: 0}
 --- !u!65 &1045004830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1229,6 +1237,10 @@ MonoBehaviour:
   ballCarrier: 1
   playerCrouched: 0
   movementSpeed: 10
+  previousPlayer: {fileID: 0}
+  newPlayer: {fileID: 0}
+  tackledTimer: {fileID: 0}
+  tackledUI: {fileID: 0}
 --- !u!114 &1526565006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1335,6 +1347,10 @@ MonoBehaviour:
   BallHoldingPosition: {fileID: 808102635}
   BallTransform: {fileID: 287728396}
   target: {fileID: 0}
+  passLeftTarget: {fileID: 0}
+  passRightTarget: {fileID: 0}
+  kickTarget: {fileID: 0}
+  player: {fileID: 0}
   HoldingBall: 0
 --- !u!65 &1526565012
 BoxCollider:
