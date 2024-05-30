@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Decision Making 1.unity
     guid: 303fd794de7962a44aa9a6f80bbba47d
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/Tactical 1.unity
+    guid: 7ca3e98e7965cdf439ff01b56b410f98
+  - enabled: 1
     path: Assets/Scenes/Game Scenes/Scenario Selector.unity
     guid: a9ac0c6685a43414690423cce37cd2ea
   - enabled: 1

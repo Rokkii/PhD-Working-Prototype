@@ -21,13 +21,23 @@ public class Timer : MonoBehaviour
     // Declare bool for if timer has expired
     public bool timerExpired = false;
 
-    // Set a variable for if a timer is for a question, by default false (set in-client)
+    // Set a variable for if a timer is for a question or outcome, by default false (set in-client)
     public bool questionTimer = false;
+    public bool triggerOutcome = false;
 
-    // Declare public game object, to control when to activate (deactivate by default)
+    // Declare public game objects, to control when to activate (deactivate by default)
     public GameObject questionUI;
+    public GameObject outcomeUI;
+
+    // Set in-game speed, default of 1, get from difficulty setting on start
+    public float gameSpeed = 1.0f;
 
     public GameObject[] disableUITimeExpired;
+
+    private void Start()
+    {
+        gameSpeed = DifficultySetting.playerSpeedSelection;
+    }
 
     // Update is called once per frame
     void Update()
@@ -51,9 +61,15 @@ public class Timer : MonoBehaviour
         timerExpired = true;
 
         // If game scene is a question scene, timer will show question after set time
-        if (questionTimer == true)
+        if (questionTimer == true && triggerOutcome == false)
         {
             QuestionTimer();
+        }
+
+        // If game scene is a outcome scene, timer will show outcome after set time
+        if (questionTimer == false && triggerOutcome == true)
+        {
+            OutcomeTimer();
         }
     }
 
@@ -63,8 +79,8 @@ public class Timer : MonoBehaviour
         timeRemaining = 10.0f;
         timerExpired = false;
         print("Resetting timer! Countdown will restart");
+        Time.timeScale = gameSpeed;
     }
-
 
     // Display a question/UI if timer is to show this after set time
     public void QuestionTimer()
@@ -72,6 +88,13 @@ public class Timer : MonoBehaviour
         print("This was a question timer!");
         questionUI.SetActive(true);
         Time.timeScale = 0.0f;
+    }
+
+    // Display a question outcome if timer is to show this after set time
+    public void OutcomeTimer()
+    {
+        print("This was a question outcome timer!");
+        outcomeUI.SetActive(true);
     }
 
     // Start a wait timer if player made a choice to trigger game UI
