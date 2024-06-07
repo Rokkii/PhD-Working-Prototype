@@ -80,6 +80,7 @@ public class Timer : MonoBehaviour
         timerExpired = false;
         print("Resetting timer! Countdown will restart");
         Time.timeScale = gameSpeed;
+        print("Game Speed now: " + Time.timeScale);
     }
 
     // Display a question/UI if timer is to show this after set time

@@ -11,7 +11,7 @@ public class DifficultySetting : MonoBehaviour
     public static float noviceSpeed = 0f;
     public static float advancedSpeed = 0.25f;
     public static float expertSpeed = 0.5f;
-    public static float playerSpeedSelection = 0.0f;
+    public static float playerSpeedSelection = 1.0f;
 
     // Variables for difficulty score multipliers
     public static float defaultScore = 1.0f;
