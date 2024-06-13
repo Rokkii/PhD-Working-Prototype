@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class DifficultySetting : MonoBehaviour
 {
@@ -21,36 +22,49 @@ public class DifficultySetting : MonoBehaviour
     public static float playerScoringSelection = 1.0f;  // Set player score multipler to 1.0 by default
 
     public static string difficultyChoice = "Default";
+    public static string positionChoice = "Default";
 
-    public void NoviceSelection()
+    // Public game text objects to display in menus
+    public TMP_Text difficultyText;
+    public TMP_Text positionText;
+
+    void Update()
     {
-        difficultyChoice = "Novice";    // Set string difficulty value
+        difficultyText.text = difficultyChoice.ToString();
+    }
+
+    public void BeginnerSelection()
+    {
+        difficultyChoice = "Beginner";    // Set string difficulty value
         playerSpeedSelection = noviceSpeed;      // Set the player selection equal to value for setting
-        print("Novice selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        print(difficultyChoice + " selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
         print(Time.timeScale);
         playerScoringSelection = noviceScore;   // Set player's selection equal to scoring difficulty multiplier
-        print("Novice difficulty, score multipler is: " + playerScoringSelection);
+        print(difficultyChoice + " difficulty, score multipler is: " + playerScoringSelection);
+        difficultyText.text = difficultyChoice.ToString();
+    }
+
+    public void ExperiencedSelection()
+    {
+        difficultyChoice = "Experienced";    // Set string difficulty value
+        playerSpeedSelection = advancedSpeed;    // Set the player selection equal to value for setting
+        print(difficultyChoice + " selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
+        playerScoringSelection = advancedScore;   // Set player's selection equal to scoring difficulty multiplier
+        print(difficultyChoice + " difficulty, score multipler is: " + playerScoringSelection);
+        difficultyText.text = difficultyChoice.ToString();
     }
 
     public void AdvancedSelection()
     {
         difficultyChoice = "Advanced";    // Set string difficulty value
-        playerSpeedSelection = advancedSpeed;    // Set the player selection equal to value for setting
-        print("Advanced selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
-        Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
-        playerScoringSelection = advancedScore;   // Set player's selection equal to scoring difficulty multiplier
-        print("Advanced difficulty, score multipler is: " + playerScoringSelection);
-    }
-
-    public void ExpertSelection()
-    {
-        difficultyChoice = "Expert";    // Set string difficulty value
         playerSpeedSelection = expertSpeed;      // Set the player selection equal to value for setting
-        print("Expert selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
+        print(difficultyChoice + " selected! Game speed is: " + (PauseMenu.gameSpeed + playerSpeedSelection));
         Time.timeScale = PauseMenu.gameSpeed + playerSpeedSelection;     // Apply Game speed
         playerScoringSelection = expertScore;   // Set player's selection equal to scoring difficulty multiplier
-        print("Expert difficulty, score multipler is: " + playerScoringSelection);
+        print(difficultyChoice + " difficulty, score multipler is: " + playerScoringSelection);
+        difficultyText.text = difficultyChoice.ToString();
     }
 
     public void ResetDifficultySettings()

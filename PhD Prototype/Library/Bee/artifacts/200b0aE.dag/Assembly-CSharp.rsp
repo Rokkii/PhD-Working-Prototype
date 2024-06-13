@@ -378,6 +378,7 @@
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerAnimationController.cs"
 "Assets/Scripts/PlayerFeedback.cs"
+"Assets/Scripts/PositionSelection.cs"
 "Assets/Scripts/ScoreBoard.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/Scripts/WASDMovement.cs"
