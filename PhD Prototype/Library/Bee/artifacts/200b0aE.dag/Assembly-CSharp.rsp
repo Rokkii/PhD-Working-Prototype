@@ -366,6 +366,7 @@
 "Assets/Scripts/BallBehaviour.cs"
 "Assets/Scripts/BallCatcher.cs"
 "Assets/Scripts/CameraSwitcher.cs"
+"Assets/Scripts/ChangeCameraPause.cs"
 "Assets/Scripts/ChoiceMade.cs"
 "Assets/Scripts/CollisionScoring.cs"
 "Assets/Scripts/DebugMenu.cs"
