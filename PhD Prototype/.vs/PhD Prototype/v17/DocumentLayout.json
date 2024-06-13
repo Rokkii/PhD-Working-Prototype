@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|c:\\users\\neil alexander\\documents\\unity projects\\phd-working-prototype\\phd prototype\\assets\\scripts\\positionselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\positionselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|c:\\users\\neil alexander\\documents\\unity projects\\phd-working-prototype\\phd prototype\\assets\\scripts\\difficultysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\difficultysetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|c:\\users\\neil alexander\\documents\\unity projects\\phd-working-prototype\\phd prototype\\assets\\scripts\\changecamerapause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\changecamerapause.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|c:\\users\\neil alexander\\documents\\unity projects\\phd-working-prototype\\phd prototype\\assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8116ECA4-46C1-13C7-8554-1D4E68971333}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PositionSelection.cs",
+              "DocumentMoniker": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\PositionSelection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PositionSelection.cs",
+              "ToolTip": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\PositionSelection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PositionSelection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:50:26.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DifficultySetting.cs",
+              "DocumentMoniker": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\DifficultySetting.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DifficultySetting.cs",
+              "ToolTip": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\DifficultySetting.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DifficultySetting.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwBcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:01:48.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChangeCameraPause.cs",
+              "DocumentMoniker": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\ChangeCameraPause.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChangeCameraPause.cs",
+              "ToolTip": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\ChangeCameraPause.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChangeCameraPause.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:03:40.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Timer.cs",
+              "DocumentMoniker": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\Timer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Timer.cs",
+              "ToolTip": "C:\\Users\\Neil Alexander\\Documents\\Unity Projects\\PhD-Working-Prototype\\PhD Prototype\\Assets\\Scripts\\Timer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Timer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T18:03:23.555Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

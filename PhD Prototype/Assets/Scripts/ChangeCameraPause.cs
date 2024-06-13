@@ -35,9 +35,10 @@ public class ChangeCameraPause : MonoBehaviour
             yield return 0;
         }
 
+        gameSpeed = DifficultySetting.playerSpeedSelection;
         // Reset game speed
         Time.timeScale = gameSpeed;
-        print("Pause finished, resetting camera and setting game speed to: " + gameSpeed);
+        print("Pause finished, resetting camera and setting game speed to: " + DifficultySetting.playerSpeedSelection);
 
         // Enable/Disable array of gameobjects
         foreach(GameObject disableObjects in disableList)
