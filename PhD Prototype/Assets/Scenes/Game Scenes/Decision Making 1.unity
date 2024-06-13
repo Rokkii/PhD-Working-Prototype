@@ -5468,6 +5468,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1039669733}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &918559994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2461860052385335451, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+  m_PrefabInstance: {fileID: 1633579206873499379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &925527812
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6834,10 +6839,12 @@ MonoBehaviour:
   - {fileID: 794685778}
   - {fileID: 603638364}
   - {fileID: 1304086211}
+  - {fileID: 224232102}
   enableList:
   - {fileID: 1896062343}
   - {fileID: 330202391}
   - {fileID: 1518641566}
+  - {fileID: 918559994}
   defaultCamera: {fileID: 0}
 --- !u!1 &1142319003
 GameObject:
@@ -13275,6 +13282,34 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1133028786}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ResetGameWorldSpeed
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ChangeCameraPause, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3729213109257482252, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: lookLeft
       value: 
@@ -13359,6 +13394,34 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1133028786}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StartCameraPause
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ChangeCameraPause, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4345153050415132285, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: buttonToHide
       value: 
