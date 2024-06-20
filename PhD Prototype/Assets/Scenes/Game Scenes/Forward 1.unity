@@ -2000,6 +2000,9 @@ MonoBehaviour:
   addFeedback: 1
   feedbackDisplay: {fileID: 0}
   sceneFeedback: Good positional decision making
+  addPlayerAction: 1
+  actionDisplay: {fileID: 0}
+  playerAction: Shortened lineout, driving maul
 --- !u!114 &34077234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23900,6 +23903,9 @@ MonoBehaviour:
   addFeedback: 1
   feedbackDisplay: {fileID: 0}
   sceneFeedback: Good positional decision making
+  addPlayerAction: 1
+  actionDisplay: {fileID: 0}
+  playerAction: Full man lineout, driving maul
 --- !u!114 &689664557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59295,6 +59301,9 @@ MonoBehaviour:
   addFeedback: 1
   feedbackDisplay: {fileID: 0}
   sceneFeedback: Improve positional decision making
+  addPlayerAction: 1
+  actionDisplay: {fileID: 0}
+  playerAction: Played lineout off the top to backs
 --- !u!114 &1650367198
 MonoBehaviour:
   m_ObjectHideFlags: 0
