@@ -26,11 +26,18 @@ public class DifficultySetting : MonoBehaviour
 
     // Public game text objects to display in menus
     public TMP_Text difficultyText;
-    public TMP_Text positionText;
+    public TMP_Text positionText;    
+    
+    // Start is called before the first frame update
+    void Start()
+    {
+        positionText.text = PositionSelection.displayString.ToString();
+    }
 
     void Update()
     {
         difficultyText.text = difficultyChoice.ToString();
+        positionText.text = positionChoice.ToString();
     }
 
     public void BeginnerSelection()

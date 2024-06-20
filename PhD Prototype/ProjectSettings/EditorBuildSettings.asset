@@ -24,6 +24,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Scenario Selector.unity
     guid: a9ac0c6685a43414690423cce37cd2ea
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/Forward Intro.unity
+    guid: f6c432e8dfa270f4c846ba29d446c3e9
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Forward 1.unity
+    guid: dcdcd539cec14a94f9d3923ca2790721
+  - enabled: 1
     path: Assets/Scenes/Testing Scene.unity
     guid: dc08cad085235f74fbfbfb00f3c040e4
   - enabled: 1
