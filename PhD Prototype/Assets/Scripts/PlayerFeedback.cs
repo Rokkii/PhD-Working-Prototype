@@ -39,13 +39,13 @@ public class PlayerFeedback : MonoBehaviour
     public void AddPlayerAction()
     {
         // If final feedback string is not default, just add next feedback element
-        if (finalActionString != "No Feedback Yet" && addPlayerAction == true)
+        if (finalActionString != "No Actions Yet" && addPlayerAction == true)
         {
             finalActionString += playerAction + "\n";
             print("Adding feedback: " + playerAction);
         }
         // If final feedback string is set to default, clear and add initial feedback element
-        if (finalActionString == "No Feedback Yet" && addPlayerAction == true)
+        if (finalActionString == "No Actions Yet" && addPlayerAction == true)
         {
             finalActionString = "";
             print("No Feedback detected, clearing string");

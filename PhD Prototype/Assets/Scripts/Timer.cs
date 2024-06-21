@@ -89,6 +89,8 @@ public class Timer : MonoBehaviour
         print("This was a question timer!");
         questionUI.SetActive(true);
         Time.timeScale = 0.0f;
+        foreach (GameObject disableUI in disableUITimeExpired)
+            disableUI.SetActive(false);
     }
 
     // Display a question outcome if timer is to show this after set time

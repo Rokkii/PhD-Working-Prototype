@@ -37,7 +37,7 @@ public class DifficultySetting : MonoBehaviour
     void Update()
     {
         difficultyText.text = difficultyChoice.ToString();
-        positionText.text = positionChoice.ToString();
+        //positionText.text = positionChoice.ToString();
     }
 
     public void BeginnerSelection()

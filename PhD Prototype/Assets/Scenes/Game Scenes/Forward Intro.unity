@@ -141,11 +141,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSize
-      value: 20
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSizeBase
-      value: 20
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 441479410009705488, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -206,6 +206,14 @@ PrefabInstance:
     - target: {fileID: 2449090568159149530, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Color.a
       value: 0.8627451
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 3024525413176796916, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Pivot.x
@@ -294,6 +302,10 @@ PrefabInstance:
     - target: {fileID: 4464630651932131750, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_SizeDelta.x
       value: 350
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464630651932131750, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_text
