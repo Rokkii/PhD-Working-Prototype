@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2079,6 +2079,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83056940}
+  - component: {fileID: 83056941}
   m_Layer: 0
   m_Name: BacksWide
   m_TagString: Untagged
@@ -2103,6 +2104,20 @@ Transform:
   - {fileID: 136853589}
   m_Father: {fileID: 1591137381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &83056941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83056939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9a229971a914229a54d81e08f1cd51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initial: {fileID: 1468654255}
+  crouchers: []
 --- !u!1001 &87382841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2438,7 +2453,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &89799479
 Transform:
   m_ObjectHideFlags: 0
@@ -2832,7 +2847,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &136853589
 Transform:
   m_ObjectHideFlags: 0
@@ -12627,18 +12642,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1468654255}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &603325863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14472,7 +14475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: {fileID: 0}
-  timeRemaining: 5
+  timeRemaining: 30
   timeGone: 0
   timerActive: 1
   timerExpired: 0
@@ -18745,7 +18748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &936894967
 Transform:
   m_ObjectHideFlags: 0
@@ -18785,6 +18788,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 938076510}
+  - component: {fileID: 938076511}
   m_Layer: 0
   m_Name: BacksMiddle
   m_TagString: Untagged
@@ -18809,6 +18813,20 @@ Transform:
   - {fileID: 1926832827}
   m_Father: {fileID: 1591137381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &938076511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938076509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9a229971a914229a54d81e08f1cd51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initial: {fileID: 1468654255}
+  crouchers: []
 --- !u!1001 &952324895
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25065,7 +25083,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1118663236
 Transform:
   m_ObjectHideFlags: 0
@@ -25551,18 +25569,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1468654255}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1208610321
 MonoBehaviour:
@@ -27070,18 +27076,6 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1468654255}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1284066164
 MonoBehaviour:
@@ -34244,6 +34238,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1678740777}
+  - component: {fileID: 1678740778}
   m_Layer: 0
   m_Name: 8PickWide
   m_TagString: Untagged
@@ -34268,6 +34263,20 @@ Transform:
   - {fileID: 2127525904}
   m_Father: {fileID: 1591137381}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1678740778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678740776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c9a229971a914229a54d81e08f1cd51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initial: {fileID: 1468654255}
+  crouchers: []
 --- !u!4 &1678836936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -40204,7 +40213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1926832827
 Transform:
   m_ObjectHideFlags: 0
@@ -44555,7 +44564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2127525904
 Transform:
   m_ObjectHideFlags: 0
