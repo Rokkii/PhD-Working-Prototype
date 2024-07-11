@@ -137,11 +137,20 @@ PrefabInstance:
         with a set-piece in a specific area of the pitch. After time has elapsed
         you will be asked which tactical decision you should make.
 
+
+        Your
+        team is playing in blue against a team in white. You will be given a scenario
+        to make a team decision for
+
 '
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSize
-      value: 22
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSizeBase
@@ -149,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_enableAutoSizing
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 441479410009705488, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -201,7 +210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1750299606652163689, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Forward 1
+      value: Back 1
       objectReference: {fileID: 0}
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -222,6 +231,10 @@ PrefabInstance:
     - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_SizeDelta.y
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -160
       objectReference: {fileID: 0}
     - target: {fileID: 3024525413176796916, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Pivot.x
@@ -313,7 +326,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4464630651932131750, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 180
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 4464630651932131750, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 5092107011244727963, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -326,6 +343,18 @@ PrefabInstance:
         (Backs)
 
 '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSize
+      value: 26.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5267600565274156115, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -367,9 +396,25 @@ PrefabInstance:
       propertyPath: m_text
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6455250575795195395, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Name
       value: Intro Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188071294126280328, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7343618765844834472, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -391,10 +436,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8556917505546258062, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     - target: {fileID: 8658024060619511026, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8837792153110371333, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 8837792153110371333, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Color.b
       value: 0

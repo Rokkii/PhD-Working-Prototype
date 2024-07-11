@@ -133,18 +133,30 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_text
-      value: In the following scenarios, you will be presented with different decisions
+      value: 'In the following scenarios, you will be presented with different decisions
         to make based on what you see. You control the ball carrier (blue team) in
         each scenario. You can kick, carry or pass in every decision. You are also
         able to look left, right and overhead to help your decision.
+
+
+        Your
+        team is playing in blue against a team in white'
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSize
-      value: 22
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_fontSizeBase
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 426422025777853688, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 441479410009705488, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -213,6 +225,10 @@ PrefabInstance:
     - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_SizeDelta.y
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 2967349807812089540, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -160
       objectReference: {fileID: 0}
     - target: {fileID: 3024525413176796916, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Pivot.x
@@ -314,6 +330,18 @@ PrefabInstance:
       propertyPath: m_text
       value: Decision-Making
       objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5198123163895808646, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5267600565274156115, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -330,9 +358,25 @@ PrefabInstance:
       propertyPath: m_text
       value: Play
       objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6100761519280228367, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6455250575795195395, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Name
       value: Intro Panel
+      objectReference: {fileID: 0}
+    - target: {fileID: 7188071294126280328, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7343618765844834472, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -358,6 +402,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 8837792153110371333, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 8837792153110371333, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_Color.b
       value: 0

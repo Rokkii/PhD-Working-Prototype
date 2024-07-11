@@ -1507,7 +1507,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 273311159}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2746,7 +2746,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 542558728}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -4801,7 +4801,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818761483}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8146,7 +8146,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1390598971}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -8949,7 +8949,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1582998316}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -9339,7 +9339,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1680917916}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -13219,6 +13219,10 @@ PrefabInstance:
       propertyPath: playerAction
       value: Player passed left after initially passing left
       objectReference: {fileID: 0}
+    - target: {fileID: 280934209180703491, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 400075783622298864, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -13271,6 +13275,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 427651707782324601, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 446329884178748891, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13279,6 +13287,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 2008379269}
+    - target: {fileID: 467386252037743050, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 467386252037743050, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 467386252037743050, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 516291276537532249, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 6
@@ -13487,9 +13507,65 @@ PrefabInstance:
       propertyPath: disableObjectsList.Array.data[0]
       value: 
       objectReference: {fileID: 1896062343}
+    - target: {fileID: 632993797657022722, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 632993797657022722, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 632993797657022722, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 634624258739819720, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 634624258739819720, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 795205832249839365, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 795205832249839365, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 795205832249839365, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 867157596019281968, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 1149289685141058966, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149289685141058966, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1149289685141058966, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1382060917605913549, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570993569433585958, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570993569433585958, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1714655235722361850, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -13611,6 +13687,22 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 2352861486553588780, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352861486553588780, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2352861486553588780, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2405184135351292086, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 2526186553035320928, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -13619,6 +13711,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 1526565005}
+    - target: {fileID: 2683740074138483321, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 2683740074138483321, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2772328939255364248, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: disableUITimeExpired.Array.size
       value: 2
@@ -13699,6 +13799,10 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 3140834724216015589, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 3165447386563021526, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: disableUITimeExpired.Array.size
       value: 2
@@ -13742,6 +13846,14 @@ PrefabInstance:
     - target: {fileID: 3518376122565198769, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519919415750818234, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519919415750818234, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -13798,6 +13910,14 @@ PrefabInstance:
     - target: {fileID: 3540354847153668934, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576047458254955841, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3576047458254955841, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3729213109257482252, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: lookLeft
@@ -13878,6 +13998,14 @@ PrefabInstance:
     - target: {fileID: 3932548880418409650, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: playerAction
       value: Player chose to carry after passing left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012163101572553134, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4012163101572553134, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4079479476980990022, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -14027,6 +14155,14 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 4243222991550646889, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4243222991550646889, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4301082472935180385, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 2
@@ -14099,6 +14235,14 @@ PrefabInstance:
       propertyPath: disableObjectsList.Array.data[7]
       value: 
       objectReference: {fileID: 1360020910}
+    - target: {fileID: 4347805384718776613, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4347805384718776613, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4367987726575272754, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: lookLeft
       value: 
@@ -14167,6 +14311,26 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 4373915579453293061, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373915579453293061, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381462987238097426, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4381462987238097426, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4392185622257836848, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 4583925441944679473, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: lookLeft
       value: 
@@ -14243,6 +14407,34 @@ PrefabInstance:
       propertyPath: disableUITimeExpired.Array.data[1]
       value: 
       objectReference: {fileID: 1420643395}
+    - target: {fileID: 4703314908915642943, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 4714032451066394518, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714032451066394518, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4714032451066394518, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723932966015335940, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723932966015335940, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4723932966015335940, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4855358881307356561, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: enableObjects.Array.data[0]
       value: 
@@ -14367,6 +14559,14 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 5182548317079643598, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5182548317079643598, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5198515883652128270, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -14455,6 +14655,30 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 50
       objectReference: {fileID: 0}
+    - target: {fileID: 5661819344377845428, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5661819344377845428, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5679608133277786610, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 5721080269447017143, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 5759243593551393162, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5759243593551393162, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5768568275395524802, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_SizeDelta.x
       value: 200
@@ -14466,6 +14690,18 @@ PrefabInstance:
     - target: {fileID: 5915122082244494515, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: playerAction
       value: Player chose to kick after passing left
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201771617231495994, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201771617231495994, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6201771617231495994, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6201776645222301050, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: playerAction
@@ -14487,6 +14723,14 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 6266812567379914615, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6266812567379914615, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6278858440419636438, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 6
@@ -14551,9 +14795,41 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6298639888775442807, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298639888775442807, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6298639888775442807, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6302721198951175237, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308432266585635562, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6308432266585635562, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485326537370742158, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485326537370742158, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6485326537370742158, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6532357634663612520, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: disableUITimeExpired.Array.size
@@ -14563,6 +14839,42 @@ PrefabInstance:
       propertyPath: disableUITimeExpired.Array.data[1]
       value: 
       objectReference: {fileID: 1420643395}
+    - target: {fileID: 6776776748847443837, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 29.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776776748847443837, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6776776748847443837, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6805658002858939966, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 6812946232623560192, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 6817150263296748090, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817150263296748090, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6817150263296748090, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6877027349496990467, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 6939112924539187164, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
@@ -14603,6 +14915,22 @@ PrefabInstance:
       propertyPath: disableObjectsList.Array.data[7]
       value: 
       objectReference: {fileID: 1360020910}
+    - target: {fileID: 7094781792258348700, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7094781792258348700, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177745806400178993, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7177745806400178993, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7292201144595421412, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: playerAction
       value: Player chose to carry
@@ -14663,6 +14991,18 @@ PrefabInstance:
       propertyPath: disableUITimeExpired.Array.data[1]
       value: 
       objectReference: {fileID: 1420643395}
+    - target: {fileID: 7459129800549883057, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459129800549883057, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7459129800549883057, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7572632279402128536, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 100
@@ -14759,6 +15099,22 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7761999519025422730, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 7812957485080470548, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812957485080470548, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7812957485080470548, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7829507781807432566, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -200
@@ -14766,6 +15122,38 @@ PrefabInstance:
     - target: {fileID: 7829507781807432566, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893679638756779298, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893679638756779298, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893679638756779298, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951634422236848214, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951634422236848214, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965439086441009790, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965439086441009790, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7965439086441009790, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7973723087801545578, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -14838,6 +15226,14 @@ PrefabInstance:
     - target: {fileID: 7983446234163866454, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_SizeDelta.y
       value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026614133741502597, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8026614133741502597, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8279969565904555374, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_SizeDelta.x
@@ -14959,6 +15355,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[12].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8404048808875100620, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 8685302380694676418, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15050,6 +15450,22 @@ PrefabInstance:
     - target: {fileID: 8746856156194265188, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[6].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8797123305683571719, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
+    - target: {fileID: 8823236447211506682, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 29.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823236447211506682, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8823236447211506682, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8851458603716899408, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -15219,6 +15635,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 8949935882093543140, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 8949935882093543140, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8970920478755537610, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_ReferencePixelsPerUnit
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8993741403435498717, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: enableObjects.Array.data[0]
       value: 
@@ -15235,6 +15663,10 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 9100663826789490282, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6a4365183edf5a43a2e6ce51aa4202c, type: 3}
     - target: {fileID: 9138530183868796330, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 10
@@ -15330,6 +15762,14 @@ PrefabInstance:
     - target: {fileID: 9138530183868796330, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[9].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144605790349005315, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 9144605790349005315, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

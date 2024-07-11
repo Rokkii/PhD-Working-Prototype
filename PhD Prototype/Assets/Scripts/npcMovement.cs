@@ -23,7 +23,7 @@ public class npcMovement : MonoBehaviour
     public bool playerCrouched = false;
 
     // Set the movement speed of the NPC, set to 2.0 by default, changed in-client
-    public float movementSpeed = 2.0f;
+    public float movementSpeed = 10.0f;
 
     // Game objects to change tags of
     public GameObject previousPlayer;
