@@ -22,6 +22,7 @@ ScriptsOnlyBuild:
     - WASDMovement
     - npcMovement
     Unity.AI.Navigation.Editor.dll:
+    - Unity.AI.Navigation.Editor.NavMeshAssetManager
     - Unity.AI.Navigation.Editor.NavigationWindow
     Unity.AI.Navigation.dll:
     - Unity.AI.Navigation.NavMeshSurface
@@ -48,8 +49,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -985,6 +988,9 @@ ScriptsOnlyBuild:
     fullTypeName: Timer
     methodName: waitTimer
   - assembly: Assembly-CSharp
+    fullTypeName: npcMovement
+    methodName: ChangeBallCarrier
+  - assembly: Assembly-CSharp
     fullTypeName: ChoiceMade
     methodName: PlayerMadeDecision
   - assembly: Assembly-CSharp
@@ -1020,6 +1026,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: npcMovement
     methodName: StopMoving
+  - assembly: Assembly-CSharp
+    fullTypeName: npcMovement
+    methodName: ChangeBallCarrier
+  - assembly: Assembly-CSharp
+    fullTypeName: npcMovement
+    methodName: ChangeBallCarrier
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: ChoiceMade
     methodName: PlayerMadeDecision
@@ -1105,6 +1120,9 @@ ScriptsOnlyBuild:
     fullTypeName: Timer
     methodName: waitTimer
   - assembly: Assembly-CSharp
+    fullTypeName: npcMovement
+    methodName: ChangeBallCarrier
+  - assembly: Assembly-CSharp
     fullTypeName: ChoiceMade
     methodName: PlayerMadeDecision
   - assembly: Assembly-CSharp
@@ -1141,6 +1159,9 @@ ScriptsOnlyBuild:
     fullTypeName: npcMovement
     methodName: StopMoving
   - assembly: Assembly-CSharp
+    fullTypeName: npcMovement
+    methodName: ChangeBallCarrier
+  - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
   - assembly: Assembly-CSharp
@@ -1167,24 +1188,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ChangeCameraPause
     methodName: ResetGameWorldSpeed
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1389,6 +1392,24 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -4965,4 +4986,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Forward 1.unity
   - Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Forward 2.unity
   - Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Feedback.unity
-  playerPath: /Users/Neil/Documents/PhD-Working-Prototype/PhD Prototype/TestBuild.apk
+  playerPath: C:/Projects/PhD-Working-Prototype/PhD Prototype/TestBuild.apk
