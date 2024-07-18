@@ -115,8 +115,8 @@
 63-->[:unityLibrary] C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-44
 64            android:resizeableActivity="false"
 64-->[:unityLibrary] C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-47
-65            android:screenOrientation="fullUser"
-65-->[:unityLibrary] C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-49
+65            android:screenOrientation="reverseLandscape"
+65-->[:unityLibrary] C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-57
 66            android:theme="@style/UnityThemeSelector" >
 66-->[:unityLibrary] C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-54
 67            <intent-filter>

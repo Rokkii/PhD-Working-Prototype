@@ -6178,18 +6178,18 @@ PrefabInstance:
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 603020742}
+      objectReference: {fileID: 1016567280}
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: PositionSelected
+      value: SetPosition
       objectReference: {fileID: 0}
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: DifficultySetting, Assembly-CSharp
+      value: PositionSelection, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1846391367527506200, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument

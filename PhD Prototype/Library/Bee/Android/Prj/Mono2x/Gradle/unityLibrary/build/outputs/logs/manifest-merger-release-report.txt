@@ -86,17 +86,17 @@ ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\P
 activity#com.unity3d.player.UnityPlayerActivity
 ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-23:16
 	android:screenOrientation
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-147
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-155
 	android:launchMode
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:148-179
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:156-187
 	android:hardwareAccelerated
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:397-432
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:405-440
 	android:exported
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:433-456
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:441-464
 	android:resizeableActivity
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:362-396
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:370-404
 	android:configChanges
-		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:180-361
+		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:188-369
 	android:theme
 		ADDED from C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 	android:name

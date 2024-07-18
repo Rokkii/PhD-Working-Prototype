@@ -86,17 +86,17 @@
 47            android:name="com.unity3d.player.UnityPlayerActivity"
 47-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:15-68
 48            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
-48-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:180-361
+48-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:188-369
 49            android:exported="true"
-49-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:433-456
+49-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:441-464
 50            android:hardwareAccelerated="false"
-50-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:397-432
+50-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:405-440
 51            android:launchMode="singleTask"
-51-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:148-179
+51-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:156-187
 52            android:resizeableActivity="false"
-52-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:362-396
-53            android:screenOrientation="fullUser"
-53-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-147
+52-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:370-404
+53            android:screenOrientation="reverseLandscape"
+53-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:111-155
 54            android:theme="@style/UnityThemeSelector" >
 54-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:69-110
 55            <intent-filter>

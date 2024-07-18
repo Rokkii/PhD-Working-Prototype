@@ -36,27 +36,30 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Back Intro.unity
     guid: 2ad53177bae882c4aa032b7190270bbe
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/Back 1.unity
+    guid: f753955a97c8073498280be79c74962e
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/Testing Scene.unity
     guid: dc08cad085235f74fbfbfb00f3c040e4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/3D Test Scene.unity
     guid: 635aa0826af611b4aa0b58d00fda4e93
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/Movement Test Scene.unity
     guid: a9660c73324db4e5fab9cd21a76b1064
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Back 1.unity
     guid: 094844c8da6f14970ae06b0a10fdcdbd
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Back 2.unity
     guid: f09e30ae8eddb429c905244976341b53
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Forward 1.unity
     guid: 13b4ebc3420f64b8db8122294998c383
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Forward 2.unity
     guid: 55b7a25817d0949bcb489c9c8ed74ec9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game Scenes/Old/Older/List Scene Test/Feedback.unity
     guid: ea86685cad0fc459bacdd1983e23cc77
   m_configObjects:
