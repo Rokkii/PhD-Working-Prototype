@@ -13599,6 +13599,10 @@ PrefabInstance:
       value: Canvas
       objectReference: {fileID: 0}
     - target: {fileID: 1569509176243359933, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 1569509176243359933, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -15158,6 +15162,14 @@ PrefabInstance:
       propertyPath: m_enableAutoSizing
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7139022362789331093, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 7139022362789331093, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 7177745806400178993, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_fontSizeMax
       value: 30
@@ -15397,6 +15409,10 @@ PrefabInstance:
     - target: {fileID: 7935786915882301109, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951634422236848214, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_fontSize
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 7951634422236848214, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_fontSizeMax
@@ -16034,6 +16050,10 @@ PrefabInstance:
       propertyPath: disableObjects.Array.data[3]
       value: 
       objectReference: {fileID: 224232102}
+    - target: {fileID: 9069904464538424167, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9100663826789490282, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
       propertyPath: m_Sprite
       value: 
