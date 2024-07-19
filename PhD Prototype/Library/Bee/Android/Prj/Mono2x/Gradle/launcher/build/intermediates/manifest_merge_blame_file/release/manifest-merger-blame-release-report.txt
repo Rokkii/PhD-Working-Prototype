@@ -8,7 +8,7 @@
 8    <uses-sdk
 9        android:minSdkVersion="22"
 9-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
-10        android:targetSdkVersion="32" />
+10        android:targetSdkVersion="33" />
 10-->C:\Projects\PhD-Working-Prototype\PhD Prototype\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
 11
 12    <supports-screens
