@@ -1,27 +1,23 @@
 ﻿<Properties StartupConfiguration="{8116ECA4-46C1-13C7-8554-1D4E68971333}|">
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6810a4ff-e8e4-4d8b-9af2-ff7b876bcd47" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Timer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DifficultySetting.cs">
     <Files>
-      <File FileName="Assets/Scripts/DifficultySetting.cs" />
-      <File FileName="Assets/Scripts/DebugMenu.cs" Line="32" Column="1" />
+      <File FileName="Assets/Scripts/DifficultySetting.cs" Line="67" Column="62" />
+      <File FileName="Assets/Scripts/DebugMenu.cs" Line="14" Column="37" />
       <File FileName="Assets/Scripts/PauseMenu.cs" />
       <File FileName="Assets/Scripts/ScoreBoard.cs" />
       <File FileName="Assets/Scripts/Timer.cs" Line="22" Column="38" />
       <File FileName="Assets/Scripts/WASDMovement.cs" />
       <File FileName="Assets/Scripts/CameraSwitcher.cs" />
-      <File FileName="Assets/Scripts/LevelLoader.cs" />
-      <File FileName="Assets/Scripts/PlayerFeedback.cs" Line="21" Column="56" />
+      <File FileName="Assets/Scripts/LevelLoader.cs" Line="18" Column="41" />
+      <File FileName="Assets/Scripts/PlayerFeedback.cs" />
       <File FileName="Assets/Scripts/CollisionScoring.cs" />
       <File FileName="Assets/Scripts/InputActions/Movement.cs" />
       <File FileName="Assets/Scripts/MobileMovement.cs" />
-      <File FileName="Assets/Scripts/npcMovement.cs" Line="109" Column="10" />
+      <File FileName="Assets/Scripts/npcMovement.cs" />
       <File FileName="Assets/Scripts/PlayerAnimationController.cs" />
       <File FileName="Assets/Scripts/BallCatcher.cs" />
-      <File FileName="Assets/Scripts/ChoiceMade.cs" Line="27" Column="39" />
+      <File FileName="Assets/Scripts/ChoiceMade.cs" />
+      <File FileName="Assets/Scripts/PositionSelection.cs" Line="27" Column="57" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -33,8 +29,16 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="35352c2b-f385-497b-b1eb-a740dcf6a1ee" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
