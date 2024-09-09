@@ -42,8 +42,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -1200,6 +1202,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -1368,24 +1388,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1482,6 +1484,528 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerAction
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerAction
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraSwitcher
+    methodName: CameraSwitch
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Resume
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: waitTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: ChoiceMade
+    methodName: PlayerMadeDecision
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraSwitcher
+    methodName: CameraSwitch
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraSwitcher
+    methodName: CameraSwitch
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraSwitcher
+    methodName: CameraSwitch
+  - assembly: Assembly-CSharp
+    fullTypeName: CameraSwitcher
+    methodName: CameraSwitch
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: ExperiencedSelection
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: BeginnerSelection
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: AdvancedSelection
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: ShowFeedback
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: ShowActions
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerAction
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1668,6 +2192,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -1890,6 +2432,84 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: ExperiencedSelection
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: BeginnerSelection
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: DifficultySetting
+    methodName: AdvancedSelection
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1908,6 +2528,105 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: ShowFeedback
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: ShowActions
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PositionSelection
+    methodName: SetPosition
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -2148,6 +2867,24 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -2316,24 +3053,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
@@ -2854,6 +3573,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16690}
     - Class: 114
       Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 16712}
     - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
@@ -3400,6 +4121,119 @@ ScriptsOnlyBuild:
       Script: {instanceID: 16690}
     - Class: 114
       Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 16872}
+    - Class: 114
+      Script: {instanceID: 17030}
+    - Class: 114
+      Script: {instanceID: 17312}
+    - Class: 114
+      Script: {instanceID: 17328}
+    - Class: 114
+      Script: {instanceID: 17474}
+    - Class: 114
+      Script: {instanceID: 17512}
+    - Class: 114
+      Script: {instanceID: 17624}
+    - Class: 114
+      Script: {instanceID: 17696}
+    - Class: 114
+      Script: {instanceID: 17876}
+    - Class: 114
+      Script: {instanceID: 18018}
+    - Class: 114
+      Script: {instanceID: 18068}
+    - Class: 114
+      Script: {instanceID: 18242}
+    - Class: 114
+      Script: {instanceID: 18488}
+    - Class: 114
+      Script: {instanceID: 19152}
+    - Class: 114
+      Script: {instanceID: 19404}
+    - Class: 114
+      Script: {instanceID: 20174}
+    - Class: 114
+      Script: {instanceID: 20206}
+    - Class: 114
+      Script: {instanceID: 20288}
+    - Class: 114
+      Script: {instanceID: 20352}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 136
+      Script: {instanceID: 0}
+    - Class: 137
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 195
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 238
+      Script: {instanceID: 0}
+    Assets/Scenes/Game Scenes/Tactical 2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 90
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 16620}
+    - Class: 114
+      Script: {instanceID: 16626}
+    - Class: 114
+      Script: {instanceID: 16690}
+    - Class: 114
+      Script: {instanceID: 16696}
+    - Class: 114
+      Script: {instanceID: 16712}
     - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
@@ -4767,6 +5601,7 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game Scenes/Tact Intro.unity
   - Assets/Scenes/Game Scenes/Decision Making 1.unity
   - Assets/Scenes/Game Scenes/Tactical 1.unity
+  - Assets/Scenes/Game Scenes/Tactical 2.unity
   - Assets/Scenes/Game Scenes/Old/Scenario Selector.unity
   - Assets/Scenes/Game Scenes/Forward Intro.unity
   - Assets/Scenes/Game Scenes/Forward 1.unity
