@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -701,7 +701,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1045004822}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -1740,7 +1740,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1045004822}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -2728,7 +2728,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -4058,7 +4058,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9063791905927558031, guid: 456e74c8f524e7a4b9446a5da14f0e91, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5000,7 +5000,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -34.1
+      value: -30.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5008,7 +5008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -189.8
+      value: -156.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5261,7 +5261,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -6282,7 +6282,7 @@ MonoBehaviour:
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 30
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -8282,7 +8282,7 @@ MonoBehaviour:
   sceneFeedback: Good tactical decision making
   addPlayerAction: 1
   actionDisplay: {fileID: 0}
-  playerAction: 8 pick from scrum
+  playerAction: Soft Defence picked when short in defence
 --- !u!1001 &520166827
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9695,7 +9695,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -180, y: -120}
-  m_SizeDelta: {x: 160, y: 50}
+  m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603325861
 MonoBehaviour:
@@ -11307,7 +11307,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -14415,7 +14415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -180.4
+      value: -132.5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -14423,7 +14423,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 60.5
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -16236,12 +16236,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.5
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 30
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -16754,7 +16754,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -19134,7 +19134,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: -120}
-  m_SizeDelta: {x: 160, y: 50}
+  m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1208610319
 MonoBehaviour:
@@ -20008,7 +20008,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -191.9
+      value: -164.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -20261,7 +20261,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -20970,7 +20970,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 180, y: -120}
-  m_SizeDelta: {x: 160, y: 50}
+  m_SizeDelta: {x: 160, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284066162
 MonoBehaviour:
@@ -21697,7 +21697,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1045004822}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -21725,7 +21725,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -152.4
+      value: -125.4
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -21733,7 +21733,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 66.6
+      value: 81.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -21983,7 +21983,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1258166488}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -22011,7 +22011,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -172.2
+      value: -150.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -22019,7 +22019,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 66.8
+      value: 80.7
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22269,7 +22269,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1258166488}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -25703,7 +25703,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1045004822}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -27663,7 +27663,7 @@ MonoBehaviour:
   sceneFeedback: Improve tactical decision making
   addPlayerAction: 1
   actionDisplay: {fileID: 0}
-  playerAction: Backs move wide from scrum
+  playerAction: Blitz defence called when short in defence
 --- !u!1 &1675939702
 GameObject:
   m_ObjectHideFlags: 0
@@ -28337,12 +28337,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.1
+  m_fontSize: 24
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
-  m_fontSizeMax: 30
+  m_fontSizeMax: 24
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -28409,7 +28409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -48.5
+      value: -51.3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -28417,7 +28417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -189.6
+      value: -156.1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -28670,7 +28670,7 @@ MonoBehaviour:
   objectMovingTo: {fileID: 0}
   changeTargetObj: []
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 10
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -29598,7 +29598,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -161.4
+      value: -138.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29606,7 +29606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 67
+      value: 80.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -29856,7 +29856,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1258166488}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}
@@ -30817,7 +30817,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -154.1
+      value: -165.9
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.y
@@ -30825,7 +30825,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 63.3
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
       propertyPath: m_LocalRotation.w
@@ -31075,7 +31075,7 @@ MonoBehaviour:
   changeTargetObj:
   - {fileID: 1258166488}
   ballCarrier: 0
-  playerCrouched: 1
+  playerCrouched: 0
   movementSpeed: 100
   previousPlayer: {fileID: 0}
   newPlayer: {fileID: 0}

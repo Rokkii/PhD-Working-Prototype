@@ -61,4 +61,9 @@ public class LevelLoader : MonoBehaviour
     {
         SceneManager.LoadScene(loadLevelName);
     }
+
+    public void ChangeToPositonalScene ()
+    {
+        SceneManager.LoadScene(sceneList[0]);
+    }
 }

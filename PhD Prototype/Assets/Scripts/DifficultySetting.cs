@@ -23,21 +23,62 @@ public class DifficultySetting : MonoBehaviour
 
     public static string difficultyChoice = "Default";
     public static string positionChoice = "Default";
+    public static string positionalGroup = "Default";
 
     // Public game text objects to display in menus
     public TMP_Text difficultyText;
-    public TMP_Text positionText;    
+    public TMP_Text positionText;
+
+    // Public game objects to disable/enable
+    public GameObject forwardUI;
+    public GameObject backUI;
+
+    public bool isHomeScreen = false;
     
     // Start is called before the first frame update
     void Start()
     {
         positionText.text = PositionSelection.displayString.ToString();
+
+        print("YOU ARE A " + positionalGroup);
+
+        if (positionalGroup == "Forward" && isHomeScreen == true)
+        {
+            forwardUI.gameObject.SetActive(true);
+            backUI.gameObject.SetActive(false);
+        }
+        if (positionalGroup == "Back" && isHomeScreen == true)
+        {
+            forwardUI.gameObject.SetActive(false);
+            backUI.gameObject.SetActive(true);
+        }
     }
 
     void Update()
     {
         difficultyText.text = difficultyChoice.ToString();
         //positionText.text = positionChoice.ToString();
+
+        if (positionalGroup == "Forward" && isHomeScreen == true)
+        {
+            forwardUI.gameObject.SetActive(true);
+            backUI.gameObject.SetActive(false);
+        }
+        if (positionalGroup == "Back" && isHomeScreen == true)
+        {
+            forwardUI.gameObject.SetActive(false);
+            backUI.gameObject.SetActive(true);
+        }
+    }
+
+    public void ForwardGroupSelected()
+    {
+        positionalGroup = "Forward";
+    }
+
+    public void BackGroupSelected()
+    {
+        positionalGroup = "Back";
     }
 
     public void BeginnerSelection()
