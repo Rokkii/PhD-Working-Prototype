@@ -33,11 +33,54 @@ public class npcMovement : MonoBehaviour
     public GameObject tackledTimer;
     public GameObject tackledUI;
 
+    public Material notActiveMaterial;
+    public Material activeMaterial;
+
+    public string positionChoice = "123";
+
     // Start is called before the first frame update
     void Start()
     {
         npcAnimation = GetComponent<Animator>();
         agent = GetComponent<NavMeshAgent>();
+
+        PositionChoice pchoice = FindAnyObjectByType<PositionChoice>();
+
+        if (pchoice != null)
+            //SetPositionMaterial("Winger");
+            SetPositionMaterial(pchoice.chosenPosition);
+
+
+    }
+
+    void SetPositionMaterial(string position)
+    {
+        Renderer[] clothing = GetComponentsInChildren<Renderer>();
+
+        if (positionChoice == position)//DifficultySetting.positionChoice)
+        {
+            foreach (Renderer rend in clothing)
+            {
+                if (rend.gameObject.name.Contains("_Socks") ||
+                    rend.gameObject.name.Contains("_Shirt") ||
+                    rend.gameObject.name.Contains("_Shorts"))
+                {
+                    rend.material = activeMaterial;
+                }
+            }
+        }
+        else
+        {
+            //foreach (Renderer rend in clothing)
+            //{
+            //    if (rend.gameObject.name.Contains("_Socks") ||
+            //        rend.gameObject.name.Contains("_Shirt") ||
+            //        rend.gameObject.name.Contains("_Shorts"))
+            //    {
+            //        rend.material = notActiveMaterial;
+            //    }
+            //}
+        }
     }
 
     // Update is called once per frame
