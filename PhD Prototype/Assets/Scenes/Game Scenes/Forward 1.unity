@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1636,7 +1636,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: 2nd Row
 --- !u!1 &22324666 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -3884,7 +3884,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: Prop
 --- !u!1001 &98032643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12211,7 +12211,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: Number 8
 --- !u!1 &397997687
 GameObject:
   m_ObjectHideFlags: 0
@@ -16973,7 +16973,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: Flanker
 --- !u!1001 &525627239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23942,7 +23942,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: Prop
 --- !u!1 &687980024 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -49867,7 +49867,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: 2nd Row
 --- !u!1001 &1325689575
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69107,7 +69107,7 @@ MonoBehaviour:
   tackledUI: {fileID: 0}
   notActiveMaterial: {fileID: 2100000, guid: 80cc0b217dbd097489d5c0208e607d1b, type: 2}
   activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
-  positionChoice: 123
+  positionChoice: Flanker
 --- !u!1 &1896062343
 GameObject:
   m_ObjectHideFlags: 0

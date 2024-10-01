@@ -717,6 +717,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1 &22477212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -880,6 +883,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &29651933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1092,6 +1098,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &31572148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -1255,6 +1264,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &34077231
 GameObject:
   m_ObjectHideFlags: 0
@@ -1799,6 +1811,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1 &100358351 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -1962,6 +1977,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &113058758
 GameObject:
   m_ObjectHideFlags: 0
@@ -2492,6 +2510,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &162032317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2781,6 +2802,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &172374466
 GameObject:
   m_ObjectHideFlags: 0
@@ -3101,6 +3125,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &185738700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3686,6 +3713,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &226037842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3975,6 +4005,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &235750052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4261,6 +4294,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &243670102 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -4425,6 +4461,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &260460960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5004,6 +5043,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &303516438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5297,6 +5339,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &308815940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5700,6 +5745,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Full back
 --- !u!1 &317049982
 GameObject:
   m_ObjectHideFlags: 0
@@ -6026,6 +6074,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &327644138
 GameObject:
   m_ObjectHideFlags: 0
@@ -6221,6 +6272,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &349140559
 GameObject:
   m_ObjectHideFlags: 0
@@ -6415,6 +6469,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &353712345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6704,6 +6761,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &360669314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6994,6 +7054,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &369159129
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7283,6 +7346,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &369331973
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7573,6 +7639,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!4 &373523106 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -7992,6 +8061,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &388913537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8278,6 +8350,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1 &397997687
 GameObject:
   m_ObjectHideFlags: 0
@@ -8920,6 +8995,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &422170839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9467,6 +9545,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &466732813
 GameObject:
   m_ObjectHideFlags: 0
@@ -9896,6 +9977,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &497665505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -10060,6 +10144,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &507242246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10646,6 +10733,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!4 &535265769 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -11162,6 +11252,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &568599347
 GameObject:
   m_ObjectHideFlags: 0
@@ -11623,6 +11716,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &576351028
 GameObject:
   m_ObjectHideFlags: 0
@@ -11940,6 +12036,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &583779880
 GameObject:
   m_ObjectHideFlags: 0
@@ -12134,6 +12233,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &588099120
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12767,6 +12869,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &606551174
 GameObject:
   m_ObjectHideFlags: 0
@@ -13082,6 +13187,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &639825588
 GameObject:
   m_ObjectHideFlags: 0
@@ -13514,6 +13622,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &669967429
 GameObject:
   m_ObjectHideFlags: 0
@@ -13849,6 +13960,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &673497175
 GameObject:
   m_ObjectHideFlags: 0
@@ -14296,6 +14410,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1001 &687596009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14586,6 +14703,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &689664554
 GameObject:
   m_ObjectHideFlags: 0
@@ -15183,6 +15303,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &723058892
 GameObject:
   m_ObjectHideFlags: 0
@@ -15500,6 +15623,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &724932449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15789,6 +15915,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!4 &725986129 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -16094,6 +16223,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &746883988 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -16258,6 +16390,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &759002458
 GameObject:
   m_ObjectHideFlags: 0
@@ -17110,6 +17245,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &831926996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17396,6 +17534,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &833507470 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -17560,6 +17701,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &837370658
 GameObject:
   m_ObjectHideFlags: 0
@@ -17884,6 +18028,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &868394870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18170,6 +18317,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &872653130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18580,6 +18730,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &881903854
 GameObject:
   m_ObjectHideFlags: 0
@@ -18775,6 +18928,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &886740670
 GameObject:
   m_ObjectHideFlags: 0
@@ -19271,6 +19427,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &930086588
 GameObject:
   m_ObjectHideFlags: 0
@@ -19632,6 +19791,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &933118238
 GameObject:
   m_ObjectHideFlags: 0
@@ -19953,6 +20115,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &935661812
 GameObject:
   m_ObjectHideFlags: 0
@@ -20274,6 +20439,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &942487804
 GameObject:
   m_ObjectHideFlags: 0
@@ -21140,6 +21308,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &977656820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21429,6 +21600,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &980359047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -21898,6 +22072,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1004288394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22184,6 +22361,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!4 &1014165400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -22478,6 +22658,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1019764788
 GameObject:
   m_ObjectHideFlags: 0
@@ -22829,6 +23012,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1026897070
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23118,6 +23304,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1027559628
 GameObject:
   m_ObjectHideFlags: 0
@@ -23569,6 +23758,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Centre
 --- !u!4 &1032245194 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -23910,6 +24102,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1039402087
 GameObject:
   m_ObjectHideFlags: 0
@@ -24217,6 +24412,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!65 &1045004830
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24784,6 +24982,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Centre
 --- !u!1001 &1088207314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25077,6 +25278,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1088659689
 GameObject:
   m_ObjectHideFlags: 0
@@ -25665,6 +25869,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Scrum Half
 --- !u!1001 &1118139289
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25951,6 +26158,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Winger
 --- !u!1 &1122481153 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3322933368162684647, guid: 3afc7f78154a8484d88baeac5cbe1452, type: 3}
@@ -26596,6 +26806,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1153980294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27054,6 +27267,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1169235672
 GameObject:
   m_ObjectHideFlags: 0
@@ -27556,6 +27772,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1181676246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27846,6 +28065,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1186259994
 GameObject:
   m_ObjectHideFlags: 0
@@ -28166,6 +28388,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1195936513
 GameObject:
   m_ObjectHideFlags: 0
@@ -28505,6 +28730,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1201910979
 GameObject:
   m_ObjectHideFlags: 0
@@ -29032,6 +29260,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1235788379
 GameObject:
   m_ObjectHideFlags: 0
@@ -29473,6 +29704,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Fly Half
 --- !u!1001 &1269416957
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -29762,6 +29996,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1282959829
 GameObject:
   m_ObjectHideFlags: 0
@@ -30172,6 +30409,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1001 &1330648361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30465,6 +30705,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1338968553
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30754,6 +30997,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1353566692
 GameObject:
   m_ObjectHideFlags: 0
@@ -31074,6 +31320,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1381593719
 GameObject:
   m_ObjectHideFlags: 0
@@ -31395,6 +31644,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1386350850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31679,6 +31931,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1387278011
 GameObject:
   m_ObjectHideFlags: 0
@@ -31874,6 +32129,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1412226042
 GameObject:
   m_ObjectHideFlags: 0
@@ -32742,6 +33000,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1468654255
 GameObject:
   m_ObjectHideFlags: 0
@@ -33685,6 +33946,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!114 &1526565006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34106,6 +34370,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1538081128 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6455250575795195395, guid: e1eb8065d07fa4794acef42c5585b6ab, type: 3}
@@ -34622,6 +34889,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1586534151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35301,6 +35571,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1610425047
 GameObject:
   m_ObjectHideFlags: 0
@@ -35516,6 +35789,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1626809207
 GameObject:
   m_ObjectHideFlags: 0
@@ -36014,6 +36290,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1677419017
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36477,6 +36756,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1684848496
 GameObject:
   m_ObjectHideFlags: 0
@@ -37042,6 +37324,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1749860201
 GameObject:
   m_ObjectHideFlags: 0
@@ -37362,6 +37647,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1770570660
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37648,6 +37936,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1780232703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -37938,6 +38229,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1784716883
 GameObject:
   m_ObjectHideFlags: 0
@@ -38217,6 +38511,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1815571538
 GameObject:
   m_ObjectHideFlags: 0
@@ -38572,6 +38869,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1836090592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38865,6 +39165,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1836200688
 GameObject:
   m_ObjectHideFlags: 0
@@ -39090,6 +39393,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1847483605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39376,6 +39682,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1856516460
 GameObject:
   m_ObjectHideFlags: 0
@@ -39762,6 +40071,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!4 &1893233939 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -40053,6 +40365,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: 123
 --- !u!1 &1896062343
 GameObject:
   m_ObjectHideFlags: 0
@@ -40443,6 +40758,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1908666745
 GameObject:
   m_ObjectHideFlags: 0
@@ -40637,6 +40955,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1923210835
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -40927,6 +41248,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1934618333
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -41759,6 +42083,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &1993135788
 GameObject:
   m_ObjectHideFlags: 0
@@ -41954,6 +42281,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &1999767107
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42247,6 +42577,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2007827159
 GameObject:
   m_ObjectHideFlags: 0
@@ -42568,6 +42901,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2015945625
 GameObject:
   m_ObjectHideFlags: 0
@@ -42917,6 +43253,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1001 &2042663066
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43203,6 +43542,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 2100000, guid: 16ea8990bcffa42d7850920928ee9e9a, type: 2}
+  positionChoice: Winger
 --- !u!1 &2050707391
 GameObject:
   m_ObjectHideFlags: 0
@@ -43594,6 +43936,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2079604649
 GameObject:
   m_ObjectHideFlags: 0
@@ -43915,6 +44260,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!4 &2093002790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8145072973764649317, guid: 16075ce56da443d42a49d00491d51acf, type: 3}
@@ -44240,6 +44588,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2097085047
 GameObject:
   m_ObjectHideFlags: 0
@@ -44588,6 +44939,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2120936640
 GameObject:
   m_ObjectHideFlags: 0
@@ -45091,6 +45445,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1 &2130201142
 GameObject:
   m_ObjectHideFlags: 0
@@ -45488,6 +45845,9 @@ MonoBehaviour:
   newPlayer: {fileID: 0}
   tackledTimer: {fileID: 0}
   tackledUI: {fileID: 0}
+  notActiveMaterial: {fileID: 0}
+  activeMaterial: {fileID: 0}
+  positionChoice: 123
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
