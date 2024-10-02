@@ -12,6 +12,7 @@ ScriptsOnlyBuild:
     - PauseMenu
     - PlayerAnimationController
     - PlayerFeedback
+    - PositionChoice
     - PositionSelection
     - Timer
     - npcMovement
@@ -1176,72 +1177,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ChangeCameraPause
     methodName: ResetGameWorldSpeed
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -1440,102 +1375,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: ExperiencedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: BeginnerSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: AdvancedSelection
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1548,6 +1387,96 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1561,80 +1490,17 @@ ScriptsOnlyBuild:
     fullTypeName: LevelLoader
     methodName: ChangeScene
   - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
+    fullTypeName: Timer
+    methodName: ResetTimer
   - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: PlayerFeedback
-    methodName: ShowFeedback
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowActions
+    methodName: AddPlayerAction
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
@@ -1659,6 +1525,48 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerAction
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -1806,18 +1714,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -1986,102 +1882,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: ExperiencedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: BeginnerSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: AdvancedSelection
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -2100,117 +1900,63 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowFeedback
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowActions
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: AddPlayerFeedback
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: PlayerFeedback
     methodName: AddPlayerAction
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: Timer
-    methodName: ResetTimer
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -2253,6 +1999,27 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PlayerFeedback
     methodName: AddPlayerAction
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerAction
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
@@ -2433,12 +2200,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -2661,201 +2422,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: ExperiencedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: BeginnerSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: AdvancedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowFeedback
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowActions
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -2913,12 +2479,6 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
@@ -2940,9 +2500,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -3060,6 +2617,78 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: CameraSwitcher
     methodName: CameraSwitch
@@ -3228,267 +2857,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Timer
     methodName: ResetTimer
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: ExperiencedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: BeginnerSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: DifficultySetting
-    methodName: AdvancedSelection
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: Assembly-CSharp
-    fullTypeName: PositionSelection
-    methodName: SetPosition
-  - assembly: Assembly-CSharp
-    fullTypeName: LevelLoader
-    methodName: ChangeScene
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: UnityEngine.CoreModule
-    fullTypeName: UnityEngine.GameObject
-    methodName: SetActive
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowFeedback
-  - assembly: Assembly-CSharp
-    fullTypeName: PlayerFeedback
-    methodName: ShowActions
   - assembly: Assembly-CSharp
     fullTypeName: LevelLoader
     methodName: ChangeScene
@@ -3522,6 +2890,30 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: PlayerFeedback
     methodName: AddPlayerFeedback
+  - assembly: Assembly-CSharp
+    fullTypeName: LevelLoader
+    methodName: ChangeScene
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: Assembly-CSharp
+    fullTypeName: PlayerFeedback
+    methodName: AddPlayerFeedback
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: Timer
+    methodName: ResetTimer
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
@@ -3588,45 +2980,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16696}
     - Class: 114
-      Script: {instanceID: 16712}
-    - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
       Script: {instanceID: 17030}
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17624}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20286}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20350}
+      Script: {instanceID: 20288}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3705,29 +3095,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3806,29 +3196,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -3909,35 +3299,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17624}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20350}
+      Script: {instanceID: 20352}
     - Class: 114
-      Script: {instanceID: 20760}
+      Script: {instanceID: 20764}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4012,45 +3402,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16696}
     - Class: 114
-      Script: {instanceID: 16712}
-    - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
       Script: {instanceID: 17030}
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17624}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20286}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20350}
+      Script: {instanceID: 20288}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4129,29 +3517,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4218,19 +3606,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 18488}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4291,19 +3679,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 18488}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4368,27 +3756,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17422}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17424}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19806}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19956}
+      Script: {instanceID: 19808}
     - Class: 114
-      Script: {instanceID: 20302}
+      Script: {instanceID: 19958}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20304}
+    - Class: 114
+      Script: {instanceID: 20576}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4463,29 +3853,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20174}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4560,45 +3950,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16696}
     - Class: 114
-      Script: {instanceID: 16712}
-    - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
       Script: {instanceID: 17030}
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17624}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20286}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20350}
+      Script: {instanceID: 20288}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4673,45 +4061,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 16696}
     - Class: 114
-      Script: {instanceID: 16712}
-    - Class: 114
       Script: {instanceID: 16872}
     - Class: 114
       Script: {instanceID: 17030}
     - Class: 114
       Script: {instanceID: 17312}
     - Class: 114
-      Script: {instanceID: 17472}
+      Script: {instanceID: 17328}
     - Class: 114
-      Script: {instanceID: 17510}
+      Script: {instanceID: 17474}
     - Class: 114
-      Script: {instanceID: 17622}
+      Script: {instanceID: 17512}
     - Class: 114
-      Script: {instanceID: 17694}
+      Script: {instanceID: 17624}
     - Class: 114
-      Script: {instanceID: 17874}
+      Script: {instanceID: 17696}
     - Class: 114
-      Script: {instanceID: 18016}
+      Script: {instanceID: 17876}
     - Class: 114
-      Script: {instanceID: 18066}
+      Script: {instanceID: 18018}
     - Class: 114
-      Script: {instanceID: 18240}
+      Script: {instanceID: 18068}
     - Class: 114
-      Script: {instanceID: 18486}
+      Script: {instanceID: 18242}
     - Class: 114
-      Script: {instanceID: 19150}
+      Script: {instanceID: 18488}
     - Class: 114
-      Script: {instanceID: 19402}
+      Script: {instanceID: 19152}
     - Class: 114
-      Script: {instanceID: 20172}
+      Script: {instanceID: 19404}
     - Class: 114
-      Script: {instanceID: 20204}
+      Script: {instanceID: 20174}
     - Class: 114
-      Script: {instanceID: 20286}
+      Script: {instanceID: 20206}
     - Class: 114
-      Script: {instanceID: 20350}
+      Script: {instanceID: 20288}
     - Class: 114
-      Script: {instanceID: 20946}
+      Script: {instanceID: 20352}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -4989,6 +4375,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: FixedJoystick
+  - hash:
+      serializedVersion: 2
+      Hash: 28b7346ac590f2bb1bd2ee133d2368f6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: DifficultySetting
   - hash:
       serializedVersion: 2
       Hash: 0515d3107a65fdbab3ad88c2c94de99f
@@ -5507,7 +4899,7 @@ ScriptsOnlyBuild:
     className: Physics2DRaycaster
   - hash:
       serializedVersion: 2
-      Hash: 4cd4f371995871284e250d902d3a0cd7
+      Hash: 41ea31cb992f85a76055a6af5407a375
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: npcMovement
@@ -5939,6 +5331,12 @@ ScriptsOnlyBuild:
     className: CinemachineBasicMultiChannelPerlin
   - hash:
       serializedVersion: 2
+      Hash: f2b6acd808eb796084139faececbb1a6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PositionChoice
+  - hash:
+      serializedVersion: 2
       Hash: aa349b22cd61b9e8488d736f82590d6b
     assemblyName: Assembly-CSharp
     namespaceName: TMPro.Examples
@@ -6027,12 +5425,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.AI.Navigation
     namespaceName: Unity.AI.Navigation
     className: NavMeshLink
-  - hash:
-      serializedVersion: 2
-      Hash: 28b7346ac590f2bb1bd2ee133d2368f6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: DifficultySetting
   platform: 13
   scenePathNames:
   - Assets/Scenes/Game Scenes/Start.unity
@@ -6047,4 +5439,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Game Scenes/Forward 1.unity
   - Assets/Scenes/Game Scenes/Back Intro.unity
   - Assets/Scenes/Game Scenes/Back 1.unity
-  playerPath: /Users/Neil/Documents/PhD-Working-Prototype/PhD Prototype/TestBuild.apk
+  playerPath: C:/Projects/PhD-Working-Prototype/PhD Prototype/TestBuild.apk
